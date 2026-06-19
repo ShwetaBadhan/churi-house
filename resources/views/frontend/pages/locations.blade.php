@@ -26,33 +26,31 @@
     <!-- Page Header End -->
 
     <!-- Page Team Single Start -->
-    <div class="page-team-single bg-section">
+    <!-- <div class="page-team-single bg-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <!-- Team Member Image Start -->
+                   
                     <div class="team-member-image">
                         <figure class="image-anime reveal">
                             <img src="images/team-2.jpg" alt="">
                         </figure>
                     </div>
-                    <!-- Team Member Image End -->
+                  
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- Team Member Content Start -->
+                   
                     <div class="team-member-content">
-                        <!-- Section TItle Start -->
+                       
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Takeaway Unit</h3>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Takeaway Unit</h2>
 
                         </div>
-                        <!-- Section TItle End -->
-
-                        <!-- Member Content Body Start -->
+                      
                         <div class="member-content-body wow fadeInUp" data-wow-delay="0.4s">
-                            
+
                             <table class="table table-bordered">
 
                                 <tr>
@@ -130,28 +128,24 @@
 
                             </table>
                         </div>
-                        <!-- Member Content Body End -->
+                    
 
 
                     </div>
-                    <!-- Team Member Content End -->
+                  
                 </div>
-               
+
 
                 <div class="col-lg-6">
-                    <!-- Team Member Content Start -->
+                
                     <div class="team-member-content">
-                        <!-- Section TItle Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Cafe With Sitting</h3>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Cafe With Sitting</h2>
 
                         </div>
-                        <!-- Section TItle End -->
-
-                        <!-- Member Content Body Start -->
                         <div class="member-content-body wow fadeInUp" data-wow-delay="0.4s">
-                            
+
                             <table class="table table-bordered">
 
                                 <tr>
@@ -229,25 +223,107 @@
 
                             </table>
                         </div>
-                        <!-- Member Content Body End -->
+                       
 
 
                     </div>
-                    <!-- Team Member Content End -->
+                   
                 </div>
-                 <div class="col-lg-6">
-                    <!-- Team Member Image Start -->
+                <div class="col-lg-6">
                     <div class="team-member-image">
                         <figure class="image-anime reveal">
                             <img src="images/team-2.jpg" alt="">
                         </figure>
                     </div>
-                    <!-- Team Member Image End -->
+                   
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Page Team Single End -->
 
+    <section class="franchise-network bg-section">
 
+        <div class="container">
+
+            <div class="section-heading">
+                <span>EXPAND WITH US ACROSS INDIA</span>
+                <h2>Join Our Successful Franchise Network</h2>
+            </div>
+
+            <div class="franchise-wrapper">
+
+                <!-- Left -->
+                <div class="franchise-sidebar">
+
+                    <div class="state-item active" data-state="Punjab"
+                        data-locations="Chandigarh University, Sector 35C, Mohali Phase 3B2">
+
+                        <div class="state-header">
+                            <h4>Punjab</h4>
+                            <span>3 Locations</span>
+                        </div>
+
+                    </div>
+
+                    <div class="state-item" data-state="Haryana" data-locations="Gurugram, Faridabad">
+
+                        <div class="state-header">
+                            <h4>Haryana</h4>
+                            <span>2 Locations</span>
+                        </div>
+
+                    </div>
+
+                    <div class="state-item" data-state="Himachal" data-locations="Shimla">
+
+                        <div class="state-header">
+                            <h4>Himachal Pradesh</h4>
+                            <span>1 Location</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right -->
+                <div class="franchise-map-area">
+
+                    <div class="india-map">
+
+                        <div class="map-state punjab active-state">
+                            Punjab
+                        </div>
+
+                        <div class="map-state haryana">
+                            Haryana
+                        </div>
+
+                        <div class="map-state himachal">
+                            Himachal
+                        </div>
+
+                    </div>
+
+                    <div class="location-popup">
+
+                        <h3 id="stateName">Punjab</h3>
+
+                        <ul id="locationList">
+
+                            <li>Chandigarh University</li>
+                            <li>Sector 35C</li>
+                            <li>Mohali Phase 3B2</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 @endsection

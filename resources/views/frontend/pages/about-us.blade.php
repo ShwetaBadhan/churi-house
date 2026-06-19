@@ -26,5 +26,8 @@
 
     @include('frontend.components.home.about')
     @include('frontend.components.about.approach')
+    @include('frontend.components.about.team')
+    @include('frontend.components.home.cta')
+    @include('frontend.components.about.faq')
 
 @endsection
