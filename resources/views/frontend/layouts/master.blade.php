@@ -77,7 +77,15 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
     <script>
+window.addEventListener('DOMContentLoaded', () => {
 
+    const defaultState = document.querySelector('.state-item.active');
+
+    if(defaultState){
+        defaultState.click();
+    }
+
+});
         const stateData = {
 
             Punjab: {
@@ -183,6 +191,7 @@
         });
 
     </script>
+    
 </body>
 
 </html>
