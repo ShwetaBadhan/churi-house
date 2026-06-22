@@ -12,7 +12,7 @@
     <!-- Page Title -->
     <title>@yield('title', 'Churi House')</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/logo/logo.png') }}">
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -35,6 +35,8 @@
     <link rel="stylesheet" href="css/mousecursor.css">
     <!-- Main Custom Css -->
     <link href="css/custom.css" rel="stylesheet" media="screen">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 </head>
 
 <body>
@@ -76,16 +78,18 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    @stack('scripts')
     <script>
-window.addEventListener('DOMContentLoaded', () => {
+        window.addEventListener('DOMContentLoaded', () => {
 
-    const defaultState = document.querySelector('.state-item.active');
+            const defaultState = document.querySelector('.state-item.active');
 
-    if(defaultState){
-        defaultState.click();
-    }
+            if (defaultState) {
+                defaultState.click();
+            }
 
-});
+        });
         const stateData = {
 
             Punjab: {
@@ -191,7 +195,7 @@ window.addEventListener('DOMContentLoaded', () => {
         });
 
     </script>
-    
+
 </body>
 
 </html>

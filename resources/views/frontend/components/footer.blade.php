@@ -38,7 +38,7 @@
                         <h3>Quick Links</h3>
                         <ul>
                             <li><a href="{{ route('about-us') }}">About Us</a></li>
-                            <li><a href="{{ route('locations') }}">Locations</a></li>
+                            <li><a href="{{ route('locations') }}">Franchise</a></li>
                             <li><a href="{{ route('our-menu') }}">Our Menu</a></li>
                             <li><a href="{{ route('our-gallery') }}">Gallery</a></li>
                             <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
@@ -104,15 +104,15 @@
 
                         <!-- Footer Copyright Text Start -->
                         <div class="footer-copyright-text">
-                            <p>© <?php echo date('Y')?> Churi House | Developed by Vibrantick Infotech Solutions </p>
+                            <p>© <?php echo date('Y')?> <a class="has-pipe" href="{{ route('home') }}">Churi House</a>  Designed and Developed by <a href="https://vibrantick.in/" target="_blank">Vibrantick Infotech Solutions</a> </p>
                         </div>
                         <!-- Footer Copyright Text End -->
 
                         <!-- Footer Menu Start -->
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="index.html">Privacy Policy</a></li>
-                                <li><a href="about.html">Terms & Conditions</a></li>
+                                <li ><a class="has-pipe" href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
+                                <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
                                
                             </ul>
                         </div>

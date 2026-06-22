@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title', 'Home Page | Churi House')
+@section('title', 'Welcome to Churi House')
 @section('content')
 
     @include('frontend.components.home.hero')

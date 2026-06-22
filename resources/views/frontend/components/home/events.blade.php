@@ -64,7 +64,7 @@
 
                         <!-- Event Button Start -->
                         <div class="events-btn wow fadeInUp" data-wow-delay="1s">
-                            <a href="contact.html" class="btn-default">Book An Event</a>
+                            <a href="{{ ROUTE('contact-us') }}" class="btn-default">Book An Event</a>
                         </div>
                         <!-- Event Button End -->
                     </div>

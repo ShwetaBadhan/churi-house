@@ -22,7 +22,7 @@
     
                         <!-- Section Button Start -->
                         <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default">Contact Us Now</a>
+                            <a href="{{ route('contact-us') }}" class="btn-default">Contact Us Now</a>
                         </div>
                         <!-- Section Button End -->
                     </div>   
@@ -43,7 +43,7 @@
                                         <img src="images/icon-what-we-1.svg" alt="">
                                     </div>
                                     <div class="what-we-btn">
-                                        <a href="contact.html"><img src="images/arrow-white.svg" alt=""></a>
+                                        <a href="{{ route('contact-us') }}"><img src="images/arrow-white.svg" alt=""></a>
                                     </div>
                                 </div>
 
@@ -73,7 +73,7 @@
                                         <img src="images/icon-what-we-2.svg" alt="">
                                     </div>
                                     <div class="what-we-btn">
-                                        <a href="contact.html"><img src="images/arrow-accent.svg" alt=""></a>
+                                        <a href="{{ route('contact-us') }}"><img src="images/arrow-accent.svg" alt=""></a>
                                     </div>
                                 </div>
 
@@ -103,7 +103,7 @@
                                         <img src="images/icon-what-we-3.svg" alt="">
                                     </div>
                                     <div class="what-we-btn">
-                                        <a href="contact.html"><img src="images/arrow-accent.svg" alt=""></a>
+                                        <a href="{{ route('contact-us') }}"><img src="images/arrow-accent.svg" alt=""></a>
                                     </div>
                                 </div>
 

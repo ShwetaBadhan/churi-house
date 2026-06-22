@@ -7,8 +7,8 @@
                     <div class="col-md-9">
                         <!-- Topbar Contact Information Start -->
                         <div class="topbar-contact-info">
-                            <ul>
-                                <li><a href="tel:+919800003447"><img src="images/icon-phone-accent.svg" alt=""><span>Phone: </span>+91 9800003447</a></li>
+                            <ul >
+                                <li class="has-pipe"><a  href="tel:+919800003447"><img src="images/icon-phone-accent.svg" alt=""><span>Phone: </span>+91 9800003447</a></li>
                                 <li><a href="mailto:churihouse3b2@gmail.com"><img src="images/icon-mail-accent.svg" alt=""><span>Email: </span>churihouse3b2@gmail.com</a></li>
                             </ul>
                         </div>
@@ -19,6 +19,7 @@
                         <!-- Topbar Social Links Start -->
                         <div class="topbar-social-links">
                             <ul>
+                                <li class="text-white">Follow us on :</li>
                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
@@ -36,7 +37,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="{{ route('home') }}">
-						<img src="images/logo/logo.png" style="width: 80px;" alt="Logo">
+						<img src="{{ asset('images/logo/logo.png') }}" style="width: 80px;" alt="Logo">
 					</a>
 					<!-- Logo End -->
 
@@ -53,13 +54,13 @@
                                 {{-- <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> --}}
                                
                                 <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="{{ route('contact-us') }}">Reserve A Table</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" href="{{ route('reserve-a-table') }}">Reserve A Table</a></li>
                             </ul>
                         </div>
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="{{ route('contact-us') }}" class="btn-default">Reserve A Table</a>
+                            <a href="{{ route('reserve-a-table') }}" class="btn-default">Reserve A Table</a>
                         </div>
                         <!-- Header Btn End -->                      
 					</div>

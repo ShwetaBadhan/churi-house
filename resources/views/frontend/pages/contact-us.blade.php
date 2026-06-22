@@ -1,15 +1,15 @@
 @extends('frontend.layouts.master')
-@section('title','Contact Us')
+@section('title', 'Contact Us')
 @section('content')
 
-   <!-- Page Header Start -->
+    <!-- Page Header Start -->
     <div class="page-header parallaxie">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Contact us</h1>                        
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Contact us</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home') }}">home</a></li>
@@ -23,7 +23,7 @@
         </div>
     </div>
     <!-- Page Header End -->
-  
+
     <!-- Page Contact Us Start -->
     <div class="page-contact-us bg-section">
         <div class="container">
@@ -57,41 +57,51 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Get in quick touch with us </h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Have a question, feedback, or a special request? Reach out now — we're here to help you make your Seabud experience unforgettable.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Have a question, feedback, or a special request?
+                                Reach out now — we're here to help you make your Seabud experience unforgettable.</p>
                         </div>
                         <!-- Section Title End -->
 
                         <!-- Contact Form Start -->
                         <div class="contact-us-form">
-                            <form id="contactForm" action="#" method="POST" data-toggle="validator" class="contact-form wow fadeInUp" data-wow-delay="0.4s">
+                            <form id="leadForm" action="{{ route('contact-us.store') }}" method="POST"
+                                data-toggle="validator" class="contact-form wow fadeInUp" data-wow-delay="0.4s">
+                                @csrf
                                 <div class="row">
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="fname" class="form-control" id="fname" placeholder="First name" required>
+                                        <input type="text" name="name" class="form-control" id="fname"
+                                            placeholder="First name" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+
+
+                                    <div class="form-group col-md-6 mb-4">
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                            required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="lname" class="form-control" id="lname" placeholder="Last name" required>
+                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone"
+                                            pattern="[0-9]{10}" maxlength="10"
+                                            title="Please enter a valid 10-digit phone number" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
-
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="email" name ="email" class="form-control" id="email" placeholder="Email" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone" required>
+                                        <input type="text" name="subject" class="form-control" id="subject"
+                                            placeholder="Subject" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-12 mb-5">
-                                        <textarea name="message" class="form-control" id="message" rows="3" placeholder="Write Message..."></textarea>
+                                        <textarea name="message" class="form-control" id="message" rows="3"
+                                            placeholder="Write Message..."></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="col-md-12">
-                                        <button type="submit" class="btn-default"><span>submit message</span></button>
+                                        <button type="submit" class="btn-default"><span>Submit</span></button>
                                         <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>
@@ -121,7 +131,7 @@
                             <div class="contact-info-content">
                                 <h3>Contact us</h3>
                                 <p><a href="tel:+919800003447">+91 9800003447</a></p>
-                                
+
                             </div>
                         </div>
                         <!-- Contact Info Item End -->
@@ -134,7 +144,7 @@
                             <div class="contact-info-content">
                                 <h3>Email us</h3>
                                 <p><a href="mailto:churihouse3b2@gmail.com">churihouse3b2@gmail.com</a></p>
-                               
+
                             </div>
                         </div>
                         <!-- Contact Info Item End -->
@@ -165,7 +175,9 @@
                 <div class="col-lg-12">
                     <!-- Google Map IFrame Start -->
                     <div class="google-map-iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d875677.378852302!2d75.33386704905936!3d30.98123110903317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!3m2!1d31.1471305!2d75.34121789999999!4m5!1s0x390fefedea944243%3A0x9500c935fc50694a!2sChuri%20House%2C%20SCO%20No.04%2C%20Monga%20City%20Centre%2C%20Kharar%20-%20Landran%20Rd%2C%20Sector%20115%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20140307!3m2!1d30.7135169!2d76.65492239999999!5e0!3m2!1sen!2sin!4v1780039968165!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d875677.378852302!2d75.33386704905936!3d30.98123110903317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!3m2!1d31.1471305!2d75.34121789999999!4m5!1s0x390fefedea944243%3A0x9500c935fc50694a!2sChuri%20House%2C%20SCO%20No.04%2C%20Monga%20City%20Centre%2C%20Kharar%20-%20Landran%20Rd%2C%20Sector%20115%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20140307!3m2!1d30.7135169!2d76.65492239999999!5e0!3m2!1sen!2sin!4v1780039968165!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <!-- Google Map IFrame End -->
                 </div>
@@ -175,3 +187,75 @@
     <!-- Google Map Section End -->
 
 @endsection
+@push('scripts')
+    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+
+        jQuery(document).ready(function ($) {
+            $('#leadForm').on('submit', function (e) {
+                e.preventDefault();
+
+                $('.error-message').text('');
+
+                grecaptcha.ready(function () {
+
+                    grecaptcha.execute('{{ env("RECAPTCHA_SITE_KEY") }}', { action: 'contact' }).then(function (token) {
+
+                        let form = $('#leadForm');
+
+                        let formData = form.serialize() + "&g-recaptcha-response=" + token;
+
+                        $('#submitBtn').prop('disabled', true);
+
+                        $.ajax({
+                            url: form.attr('action'),
+                            method: 'POST',
+                            data: formData,
+                            headers: {
+                                'X-Requested-With': 'XMLHttpRequest'
+                            },
+
+                            success: function (response) {
+
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Success!',
+                                    text: response.message,
+                                    confirmButtonColor: '#28a745'
+                                });
+
+                                form[0].reset();
+                            },
+
+                            error: function (xhr) {
+
+                                if (xhr.status === 422) {
+
+                                    let errors = xhr.responseJSON.errors;
+
+                                    $.each(errors, function (key, value) {
+                                        $('#' + key + '-error').text(value[0]);
+                                    });
+
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Validation Error',
+                                        text: 'Please check form fields.'
+                                    });
+                                }
+                            },
+
+                            complete: function () {
+                                $('#submitBtn').prop('disabled', false);
+                            }
+                        });
+
+                    });
+
+                });
+
+            });
+        });
+    </script>
+@endpush
