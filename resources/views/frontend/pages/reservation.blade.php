@@ -97,7 +97,7 @@
 
                                 <div class="form-group col-md-12 mb-5">
                                     <label class="form-label">Special Requests</label>
-                                    <textarea name="message" class="form-control" id="message" rows="4"
+                                    <textarea name="requirements" class="form-control" id="message" rows="4"
                                         placeholder="Additional Message..."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>

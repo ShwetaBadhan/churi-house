@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Reservation;
 use Illuminate\Support\Facades\Http;
+use App\Models\Reservation;
+use App\Mail\ReservationMail;
+use Illuminate\Support\Facades\Mail;
 class ReservationController extends Controller
 {
     public function store(Request $request)
@@ -59,17 +61,27 @@ class ReservationController extends Controller
                     ],
                 ]);
 
-                Reservation::create([
+                $reservation = Reservation::create([
                     'name' => $request->name,
                     'email' => $request->email,
                     'phone' => $request->phone,
                     'guests' => $request->guests,
                     'date' => $request->date,
                     'time' => $request->time,
-                    'message' => $request->message,
+                    'message' => $request->requirements,
                     'ip' => $request->ip(),
                 ]);
 
+                try {
+                    Mail::to($reservation->email)
+                        ->send(new ReservationMail($reservation, 'customer'));
+
+                    Mail::to('info@churihouse.technocoderz.com')
+                        ->send(new ReservationMail($reservation, 'admin'));
+
+                } catch (\Exception $e) {
+                    dd($e->getMessage());
+                }
                 return response()->json([
                     'success' => true,
                     'message' => 'Booking received!  Get ready to discover timeless elegance at Churi House.'
@@ -110,16 +122,27 @@ class ReservationController extends Controller
             ],
         ]);
 
-        Reservation::create([
+        $reservation = Reservation::create([
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
             'guests' => $request->guests,
             'date' => $request->date,
             'time' => $request->time,
-            'message' => $request->message,
+            'message' => $request->requirements,
             'ip' => $request->ip(),
         ]);
+
+        try {
+            Mail::to($reservation->email)
+                ->send(new ReservationMail($reservation, 'customer'));
+
+            Mail::to('info@churihouse.technocoderz.com')
+                ->send(new ReservationMail($reservation, 'admin'));
+
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+        }
 
         return redirect()->back()->with('success', 'Thank you for your reservation request! Our team will get back to you shortly to confirm your booking.');
     }
