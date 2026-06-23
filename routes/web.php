@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactLeadController;
 use App\Http\Controllers\ReservationController;
+use App\Http\Controllers\CareerApplicationController;
 
 Route::get('/', function () {
     return view('frontend.pages.index');
@@ -47,3 +48,4 @@ Route::get('/career', function () {
 // form active 
 Route::post('/contact-us/store', [ContactLeadController::class, 'store'])->name('contact-us.store');
 Route::post('/reserve-a-table/store', [ReservationController::class, 'store'])->name('reserve-a-table.store');
+Route::post('/career/store', [CareerApplicationController::class, 'store'])->name('career.store');

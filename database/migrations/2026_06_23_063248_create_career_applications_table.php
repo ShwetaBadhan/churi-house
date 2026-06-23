@@ -16,7 +16,7 @@ return new class extends Migration {
             $table->string('email');
             $table->string('phone');
             $table->string('position');
-            $table->string('experince');
+            $table->string('experience');
             $table->string('location');
             $table->string('ip')->nullable();
             $table->timestamps();

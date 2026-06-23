@@ -53,7 +53,7 @@
                                     <li><i class="fa-solid fa-user-tie"></i> 3+ Years Experience</li>
                                 </ul>
 
-                               
+
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                                     <li><i class="fa-solid fa-user-tie"></i> 1+ Year Experience</li>
                                 </ul>
 
-                               
+
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                                     <li><i class="fa-solid fa-user-tie"></i> 5+ Years Experience</li>
                                 </ul>
 
-                               
+
                             </div>
                         </div>
                     </div>
@@ -126,14 +126,14 @@
                 <div class="col-lg-7">
                     <!-- Reserve Table Form Start -->
                     <div class="reserve-table-form wow fadeInUp" data-wow-delay="0.2s">
-                        <form id="careerForm" action="" method="POST" enctype="multipart/form-data">
+                        <form id="careerForm" action="{{ route('career.store') }}" method="POST" >
                             @csrf
 
                             <div class="row">
 
                                 <div class="form-group col-md-6 mb-4">
                                     <label class="form-label">Full Name*</label>
-                                    <input type="text" name="fullname" class="form-control" placeholder="Enter Full Name"
+                                    <input type="text" name="name" class="form-control" placeholder="Enter Full Name"
                                         required>
                                 </div>
 
@@ -152,7 +152,7 @@
 
                                 <div class="form-group col-md-6 mb-4">
                                     <label class="form-label">Position Applied For*</label>
-                                    <select name="job_title" class="form-control form-select" required>
+                                    <select name="position" class="form-control form-select" required>
                                         <option value="">Select Position</option>
                                         <option value="Restaurant Manager">Restaurant Manager</option>
                                         <option value="Chef">Chef</option>
@@ -174,7 +174,7 @@
 
 
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn-default">
+                                    <button type="submit" id="submitBtn" class="btn-default">
                                         <span>Apply Now</span>
                                     </button>
                                 </div>
@@ -231,3 +231,75 @@
         </div>
     </div>
 @endsection
+@push('scripts')
+    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+
+        jQuery(document).ready(function ($) {
+            $('#careerForm').on('submit', function (e) {
+                e.preventDefault();
+
+                $('.error-message').text('');
+
+                grecaptcha.ready(function () {
+
+                    grecaptcha.execute('{{ env("RECAPTCHA_SITE_KEY") }}', { action: 'contact' }).then(function (token) {
+
+                        let form = $('#careerForm');
+
+                        let formData = form.serialize() + "&g-recaptcha-response=" + token;
+
+                        $('#submitBtn').prop('disabled', true);
+
+                        $.ajax({
+                            url: form.attr('action'),
+                            method: 'POST',
+                            data: formData,
+                            headers: {
+                                'X-Requested-With': 'XMLHttpRequest'
+                            },
+
+                            success: function (response) {
+
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Success!',
+                                    text: response.message,
+                                    confirmButtonColor: '#28a745'
+                                });
+
+                                form[0].reset();
+                            },
+
+                            error: function (xhr) {
+
+                                if (xhr.status === 422) {
+
+                                    let errors = xhr.responseJSON.errors;
+
+                                    $.each(errors, function (key, value) {
+                                        $('#' + key + '-error').text(value[0]);
+                                    });
+
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Validation Error',
+                                        text: 'Please check form fields.'
+                                    });
+                                }
+                            },
+
+                            complete: function () {
+                                $('#submitBtn').prop('disabled', false);
+                            }
+                        });
+
+                    });
+
+                });
+
+            });
+        });
+    </script>
+@endpush

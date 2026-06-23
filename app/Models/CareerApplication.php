@@ -7,4 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 class CareerApplication extends Model
 {
     //
+    protected $fillable = [
+        'name',
+        'email',
+        'phone',
+        'position',
+        'experience',
+        'location',
+    ];
 }

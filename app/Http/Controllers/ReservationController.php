@@ -121,6 +121,6 @@ class ReservationController extends Controller
             'ip' => $request->ip(),
         ]);
 
-        return redirect()->back()->with('success', 'Thank you for contacting us, We will get back to you soon!');
+        return redirect()->back()->with('success', 'Thank you for your reservation request! Our team will get back to you shortly to confirm your booking.');
     }
 }
