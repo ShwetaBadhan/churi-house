@@ -15,8 +15,8 @@
 
                         <!-- Cta Button Start -->
                         <div class="cta-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default btn-highlighted">Contact Us Now</a>
-                            <a href="reserve-table.html" class="btn-default btn-dark">Reserve A Table</a>
+                            <a href="{{ route('contact-us') }}" class="btn-default btn-highlighted">Contact Us Now</a>
+                            <a href="{{ route('reserve-a-table') }}" class="btn-default btn-dark">Reserve A Table</a>
                         </div>
                         <!-- Cta Button End -->
                     </div>

@@ -50,38 +50,6 @@
                         </div>
                         <!-- Gallery Image End -->
 
-                        <!-- Gallery Image Start -->
-                        <!-- <div class="gallery-image wow fadeInUp" data-wow-delay="0.6s">
-                            <figure>
-                                <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0009.jpg" alt="">
-                            </figure>
-                            <div class="gallery-btn">
-                                <a href="{{ route('our-gallery') }}"><img src="images/arrow-white.svg" alt=""></a>
-                            </div>
-                        </div> -->
-                        <!-- Gallery Image End -->
-
-                        <!-- Gallery Image Start -->
-                        <!-- <div class="gallery-image wow fadeInUp" data-wow-delay="0.8s">
-                            <figure>
-                                <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0010.jpg" alt="">
-                            </figure>
-                            <div class="gallery-btn">
-                                <a href="{{ route('our-gallery') }}"><img src="images/arrow-white.svg" alt=""></a>
-                            </div>
-                        </div> -->
-                        <!-- Gallery Image End -->
-
-                        <!-- Gallery Image Start -->
-                        <!-- <div class="gallery-image wow fadeInUp" data-wow-delay="1s">
-                            <figure>
-                                <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0011.jpg" alt="">
-                            </figure>
-                            <div class="gallery-btn">
-                                <a href="{{ route('our-gallery') }}"><img src="images/arrow-white.svg" alt=""></a>
-                            </div>
-                        </div> -->
-                        <!-- Gallery Image End -->
                     </div>
                     <!-- Our Gallery Box End -->
                 </div>

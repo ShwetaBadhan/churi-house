@@ -1,122 +1,171 @@
-<div class="page-team-single bg-section">
+<div class="cfm_menu_section bg-section">
+
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <!-- Team Member Image Start -->
-                <div class="team-member-image">
-                    <figure class="image-anime reveal">
-                        <img src="{{ asset('images/team-2.jpg') }}" alt="">
-                    </figure>
+
+        <!-- Menu Tabs -->
+        <ul class="nav nav-pills cfm_menu_tabs justify-content-center" id="menuTab" role="tablist">
+
+            <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#chai">
+                    <i class="fa-solid fa-mug-hot"></i> Chai
+                </button>
+            </li>
+
+           
+
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#coffee">
+                    <i class="fa-solid fa-mug-saucer"></i> Cold Coffee
+                </button>
+            </li>
+
+           
+
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pasta">
+                    <i class="fa-solid fa-utensils"></i> Pasta
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pizza">
+                    <i class="fa-solid fa-pizza-slice"></i> Pizza
+                </button>
+            </li>
+
+        </ul>
+
+        <div class="tab-content">
+
+            <!-- Chai -->
+            <div class="tab-pane fade show active" id="chai">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Chai</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Chai</h2>
                 </div>
-                <!-- Team Member Image End -->
+
+
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Adrak Chai</h5>
+                                <p>Traditional ginger tea prepared with authentic spices.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Masala Chai</h5>
+                                <p>Rich and aromatic Indian masala tea.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Elaichi Chai</h5>
+                                <p>Refreshing cardamom infused tea.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="col-lg-6">
-                <!-- Team Member Content Start -->
-                <div class="team-member-content">
-                    <!-- Section TItle Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Vegetarian Menu</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Fresh & Flavorful Delights</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Discover a delicious selection of vegetarian specialties crafted with fresh ingredients,
-                            aromatic spices, and authentic flavors. From wholesome appetizers to satisfying main
-                            courses, our menu offers something delightful for every vegetarian food lover across all our
-                            branches.
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6"> <!-- Member Content Body Start -->
-                            <div class="member-content-body wow fadeInUp" data-wow-delay="0.4s">
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i>Fresh Farm Ingredients</li>
-                                    <li><i class="fa-solid fa-check"></i>Signature Vegetarian Dishes</li>
-                                    <li><i class="fa-solid fa-check"></i>Healthy & Nutritious Options</li>
-                                    <li><i class="fa-solid fa-check"></i>Authentic Regional Flavors</li>
-                                </ul>
+            <!-- Pizza -->
+            <div class="tab-pane fade" id="pizza">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Pizza</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Pizza</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800" alt="">
                             </div>
-                            <!-- Member Content Body End -->
-                        </div>
-                        <div class="col-lg-6"> <!-- Member Content Body Start -->
-                            <div class="member-content-body wow fadeInUp" data-wow-delay="0.4s">
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i>Fresh Farm Ingredients</li>
-                                    <li><i class="fa-solid fa-check"></i>Signature Vegetarian Dishes</li>
-                                    <li><i class="fa-solid fa-check"></i>Healthy & Nutritious Options</li>
-                                    <li><i class="fa-solid fa-check"></i>Authentic Regional Flavors</li>
-                                </ul>
+
+                            <div class="cfm_food_content">
+                                <h5>Margherita Pizza</h5>
+                                <p>Classic Italian pizza with mozzarella cheese.</p>
                             </div>
-                            <!-- Member Content Body End -->
                         </div>
                     </div>
 
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
 
+                            <div class="cfm_food_content">
+                                <h5>Farm House Pizza</h5>
+                                <p>Loaded with fresh vegetables and cheese.</p>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-                <!-- Team Member Content End -->
+
             </div>
+
+            <!-- Pasta -->
+            <div class="tab-pane fade" id="pasta">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Pasta</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Pasta</h2>
+                </div>
+            </div>
+
+            <!-- Coffee -->
+            <div class="tab-pane fade" id="coffee">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Cold Coffee</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Cold Coffee</h2>
+                </div>
+            </div>
+
+            <!-- Shakes -->
+            <div class="tab-pane fade" id="shakes">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Shakes</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Shakes</h2>
+                </div>
+            </div>
+
+            <!-- Milk -->
+            <div class="tab-pane fade" id="milk">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Milk</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Milk</h2>
+                </div>
+            </div>
+
         </div>
+
     </div>
+
 </div>
-<div class="page-team-single light-section bg-section">
-    <div class="container">
-        <div class="row align-items-center">
 
-
-              <div class="col-lg-6">
-                <!-- Team Member Content Start -->
-                <div class="team-member-content">
-                    <!-- Section TItle Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Vegetarian Menu</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Fresh & Flavorful Delights</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Discover a delicious selection of vegetarian specialties crafted with fresh ingredients,
-                            aromatic spices, and authentic flavors. From wholesome appetizers to satisfying main
-                            courses, our menu offers something delightful for every vegetarian food lover across all our
-                            branches.
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6"> <!-- Member Content Body Start -->
-                            <div class="member-content-body wow fadeInUp" data-wow-delay="0.4s">
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i>Fresh Farm Ingredients</li>
-                                    <li><i class="fa-solid fa-check"></i>Signature Vegetarian Dishes</li>
-                                    <li><i class="fa-solid fa-check"></i>Healthy & Nutritious Options</li>
-                                    <li><i class="fa-solid fa-check"></i>Authentic Regional Flavors</li>
-                                </ul>
-                            </div>
-                            <!-- Member Content Body End -->
-                        </div>
-                        <div class="col-lg-6"> <!-- Member Content Body Start -->
-                            <div class="member-content-body wow fadeInUp" data-wow-delay="0.4s">
-                                <ul>
-                                    <li><i class="fa-solid fa-check"></i>Fresh Farm Ingredients</li>
-                                    <li><i class="fa-solid fa-check"></i>Signature Vegetarian Dishes</li>
-                                    <li><i class="fa-solid fa-check"></i>Healthy & Nutritious Options</li>
-                                    <li><i class="fa-solid fa-check"></i>Authentic Regional Flavors</li>
-                                </ul>
-                            </div>
-                            <!-- Member Content Body End -->
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <!-- Team Member Content End -->
-            </div>
-            <div class="col-lg-6">
-                <!-- Team Member Image Start -->
-                <div class="team-member-image">
-                    <figure class="image-anime reveal">
-                        <img src="{{ asset('images/team-2.jpg') }}" alt="">
-                    </figure>
-                </div>
-                <!-- Team Member Image End -->
-            </div>
-        </div>
-    </div>
-</div>
 <!-- Page Team Single End -->

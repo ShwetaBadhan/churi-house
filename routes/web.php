@@ -39,6 +39,9 @@ Route::get('/terms-conditions', function () {
 Route::get('/reserve-a-table', function () {
     return view('frontend.pages.reservation');
 })->name('reserve-a-table');
+Route::get('/career', function () {
+    return view('frontend.pages.career');
+})->name('career');
 
 
 // form active 
