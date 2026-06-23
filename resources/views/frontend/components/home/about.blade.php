@@ -28,7 +28,7 @@
                     <div class="about-image-box-2">
                         <!-- Contact Circle Start -->
                         <div class="contact-us-circle">
-                            <a href="contact.html"><img src="images/contact-us-circle.svg" alt=""></a>
+                            <a href="{{ route('contact-us') }}"><img src="images/contact-us-circle.svg" alt=""></a>
                         </div>
                         <!-- Contact Circle End -->
 
@@ -51,16 +51,20 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">about us</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Welcome At Churi House</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s" align="justify">Step into Churi House, where every flavor tells a
-                            story of tradition, quality, and care. Our kitchen celebrates the timeless charm of Indian
-                            heritage, serving everything from flaky, golden parathas to our signature, soul-soothing
-                            chai. Each dish is lovingly prepared with authentic recipes, handpicked premium ingredients,
-                            and the wholesome richness of pure desi ghee.</p>
-                        <p class="wow fadeInUp" data-wow-delay="0.4s" align="justify">Indulge in an experience that bridges the gap
-                            between comfort and creativity — whether it’s street-style favorites reimagined, hearty
-                            wraps packed with flavor, decadent pastas, or our artisanal wood-fired pizzas crafted
-                            in-house. At Churi House, every bite is a celebration of heritage, every sip a warm embrace.
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Bringing People Together Through Great Food
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s" align="justify">At Churi House, we are passionate
+                            about creating exceptional dining experiences through great food, refreshing beverages, and
+                            warm hospitality. Inspired by the joy of sharing meals, our menu brings together signature
+                            specialties, handcrafted drinks, and a variety of flavorful dishes that cater to every taste
+                            and occasion.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s" align="justify">More than just a restaurant, Churi
+                            House is a place where families gather, friends connect, and memorable moments are made.
+                            With a commitment to quality ingredients, consistent taste, and outstanding service, we
+                            continue to serve food that feels familiar, comforting, and worth coming back for—making
+                            every visit a delightful experience.
+
                         </p>
                     </div>
                     <!-- Section Title End -->
@@ -78,8 +82,8 @@
                     <div class="about-counter-list">
                         <!-- About Counter Item Start -->
                         <div class="about-counter-item">
-                            <h2><span class="counter">25</span>+</h2>
-                            <p>Years of Experience</p>
+                            <h2><span class="counter">50</span>+</h2>
+                            <p>Menu Items</p>
                         </div>
                         <!-- About Counter Item End -->
 
@@ -92,8 +96,8 @@
 
                         <!-- About Counter Item Start -->
                         <div class="about-counter-item">
-                            <h2><span class="counter">98</span>%</h2>
-                            <p>Satisfaction Rate</p>
+                            <h2><span class="counter">15</span>+</h2>
+                            <p>Food Categories</p>
                         </div>
                         <!-- About Counter Item End -->
                     </div>

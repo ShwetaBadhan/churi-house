@@ -7,7 +7,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
                         <h3 class="wow fadeInUp">Our History</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Honoring our deep-rooted passion for seafood since day one</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">From Vision to Flavorful Experiences</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>

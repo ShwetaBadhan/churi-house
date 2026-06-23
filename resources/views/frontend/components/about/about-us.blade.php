@@ -51,18 +51,19 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">about us</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Welcome At Churi House</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s" align="justify">Step into Churi House, where every
-                            flavor tells a
-                            story of tradition, quality, and care. Our kitchen celebrates the timeless charm of Indian
-                            heritage, serving everything from flaky, golden parathas to our signature, soul-soothing
-                            chai. Each dish is lovingly prepared with authentic recipes, handpicked premium ingredients,
-                            and the wholesome richness of pure desi ghee.</p>
-                        <p class="wow fadeInUp" data-wow-delay="0.4s" align="justify">Indulge in an experience that
-                            bridges the gap
-                            between comfort and creativity — whether it’s street-style favorites reimagined, hearty
-                            wraps packed with flavor, decadent pastas, or our artisanal wood-fired pizzas crafted
-                            in-house. At Churi House, every bite is a celebration of heritage, every sip a warm embrace.
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Bringing People Together Through Great Food
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s" align="justify">At Churi House, we are passionate
+                            about creating memorable dining experiences through delicious food, refreshing beverages,
+                            and warm hospitality. Our diverse menu features signature specialties, handcrafted drinks,
+                            and a variety of flavorful dishes, thoughtfully prepared to satisfy every taste and
+                            occasion.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s" align="justify">More than just a restaurant, Churi
+                            House is a place where families gather, friends connect, and moments are shared. With a
+                            commitment to quality ingredients, exceptional taste, and outstanding service, we strive to
+                            make every visit enjoyable, comforting, and worth coming back for.
+
                         </p>
                     </div>
                     <!-- Section Title End -->
@@ -70,17 +71,17 @@
                     <!-- About Body List Start -->
                     <div class="about-body-list wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
-                            <li>Freshly Baked with Care.</li>
-                            <li>100% Quality You Can Taste!</li>
-                            <li>Freshly Baked with Care.</li>
-                            <li>100% Quality You Can Taste!</li>
-                            <li>Freshly Baked with Care.</li>
-                            <li>100% Quality You Can Taste!</li>
+                            <li>Authentic Flavors</li>
+                            <li>Quality Ingredients</li>
+                            <li>Signature Delights</li>
+                            <li>Refreshing Beverages</li>
+                            <li>Memorable Experiences</li>
+                            <li>Customer First Approach</li>
                         </ul>
                     </div>
                     <!-- About Body List End -->
 
-                  
+
 
                     <!-- About Button Start -->
                     <div class="about-btn wow fadeInUp" data-wow-delay="0.6s">
