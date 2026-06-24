@@ -32,35 +32,13 @@
                     <!-- Hero Button Start -->
                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.2s">
                         <a href="{{ route('contact-us') }}" class="btn-default btn-highlighted">Get Started</a>
-                        <a href="{{ route('our-menu') }}" class="btn-default btn-dark">Explore Our Menu</a>
                     </div>
                     <!-- Hero Button End -->
                 </div>
                 <!-- Hero Content End -->
             </div>
 
-            <div class="col-lg-5">
-                <!-- Working Hours Item Start -->
-                <div class="working-hours-item wow fadeInUp" data-wow-delay="0.4s">
-                    <!-- Working Hours Header Start -->
-                    <div class="working-hours-header">
-                        <h3>Working Hours</h3>
-                        <img src="images/icon-clock-white.svg" alt="">
-                    </div>
-                    <!-- Working Hours Header End -->
-
-                    <!-- Working Hours Body Start -->
-                    <div class="working-hours-body">
-                        <ul>
-                            <li>Monday - Friday <span>8:00 AM - 8:00 PM</span></li>
-                            <li>Saturday <span>9:00 AM - 6:00 PM</span></li>
-                            <li>Sunday <span>Closed</span></li>
-                        </ul>
-                    </div>
-                    <!-- Working Hours Body End -->
-                </div>
-                <!-- Working Hours Item End -->
-            </div>
+           
         </div>
     </div>
 </div>

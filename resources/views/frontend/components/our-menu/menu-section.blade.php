@@ -11,7 +11,7 @@
                 </button>
             </li>
 
-           
+
 
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#coffee">
@@ -19,7 +19,7 @@
                 </button>
             </li>
 
-           
+
 
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pasta">
@@ -55,7 +55,6 @@
 
                             <div class="cfm_food_content">
                                 <h5>Adrak Chai</h5>
-                                <p>Traditional ginger tea prepared with authentic spices.</p>
                             </div>
                         </div>
                     </div>
@@ -68,7 +67,6 @@
 
                             <div class="cfm_food_content">
                                 <h5>Masala Chai</h5>
-                                <p>Rich and aromatic Indian masala tea.</p>
                             </div>
                         </div>
                     </div>
@@ -81,7 +79,7 @@
 
                             <div class="cfm_food_content">
                                 <h5>Elaichi Chai</h5>
-                                <p>Refreshing cardamom infused tea.</p>
+
                             </div>
                         </div>
                     </div>
@@ -108,7 +106,6 @@
 
                             <div class="cfm_food_content">
                                 <h5>Margherita Pizza</h5>
-                                <p>Classic Italian pizza with mozzarella cheese.</p>
                             </div>
                         </div>
                     </div>
@@ -121,7 +118,6 @@
 
                             <div class="cfm_food_content">
                                 <h5>Farm House Pizza</h5>
-                                <p>Loaded with fresh vegetables and cheese.</p>
                             </div>
                         </div>
                     </div>
@@ -136,6 +132,23 @@
                     <h3 class="wow fadeInUp">Explore Our Pasta</h3>
                     <h2 class="text-anime-style-3" data-cursor="-opaque">Pasta</h2>
                 </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?w=600" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Pasta</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                </div>
             </div>
 
             <!-- Coffee -->
@@ -143,6 +156,23 @@
                 <div class="section-title text-center">
                     <h3 class="wow fadeInUp">Explore Our Cold Coffee</h3>
                     <h2 class="text-anime-style-3" data-cursor="-opaque">Cold Coffee</h2>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
                 </div>
             </div>
 
@@ -152,6 +182,46 @@
                     <h3 class="wow fadeInUp">Explore Our Shakes</h3>
                     <h2 class="text-anime-style-3" data-cursor="-opaque">Shakes</h2>
                 </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Adrak Chai</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Masala Chai</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Elaichi Chai</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
             <!-- Milk -->
@@ -159,6 +229,46 @@
                 <div class="section-title text-center">
                     <h3 class="wow fadeInUp">Explore Our Milk</h3>
                     <h2 class="text-anime-style-3" data-cursor="-opaque">Milk</h2>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Adrak Chai</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Masala Chai</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Elaichi Chai</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

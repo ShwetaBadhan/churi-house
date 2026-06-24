@@ -1,5 +1,5 @@
 <!-- Our Testimonials Section Start -->
-<div class="our-testimonials bg-section dark-section">
+<div class="our-testimonials bg-section light-section">
     <div class="container-fluid">
         <div class="row no-gutters">
             <div class="col-lg-6">

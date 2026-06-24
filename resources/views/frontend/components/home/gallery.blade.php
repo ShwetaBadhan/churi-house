@@ -24,9 +24,7 @@
                             <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0012.jpg"
                                 alt="">
                         </figure>
-                        <div class="gallery-btn">
-                            <a href="{{ route('our-gallery') }}"><img src="images/arrow-white.svg" alt=""></a>
-                        </div>
+                        
                     </div>
                     <!-- Gallery Image End -->
 
@@ -36,9 +34,7 @@
                             <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0006.jpg"
                                 alt="">
                         </figure>
-                        <div class="gallery-btn">
-                            <a href="{{ route('our-gallery') }}"><img src="images/arrow-white.svg" alt=""></a>
-                        </div>
+                       
                     </div>
                     <!-- Gallery Image End -->
 
@@ -48,9 +44,7 @@
                             <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0008.jpg"
                                 alt="">
                         </figure>
-                        <div class="gallery-btn">
-                            <a href="{{ route('our-gallery') }}"><img src="images/arrow-white.svg" alt=""></a>
-                        </div>
+                      
                     </div>
                     <!-- Gallery Image End -->
 

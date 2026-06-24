@@ -24,8 +24,58 @@
                 </div>
             </div>
 
+            <div class="col-lg-12">
+                <!-- Cta Counter List Start -->
+                <div class="cta-counter-list">
+                    <!-- CTA Counter Item Start -->
+                    <div class="cta-counter-item">
+                        <div class="icon-box">
+                            <img src="images/icon-cta-counter-1.svg" alt="">
+                        </div>
+                        <div class="cta-counter-content">
+                            <h2><span class="counter">85</span>+</h2>
+                            <p>Unique Signature Dishes Curated by Our Team</p>
+                        </div>
+                    </div>
+                    <!-- CTA Counter Item End -->
 
+                    <!-- CTA Counter Item Start -->
+                    <div class="cta-counter-item">
+                        <div class="icon-box">
+                            <img src="images/icon-cta-counter-2.svg" alt="">
+                        </div>
+                        <div class="cta-counter-content">
+                            <h2><span class="counter">4.9</span>+</h2>
+                            <p>Customer Ratings Reflecting Consistency</p>
+                        </div>
+                    </div>
+                    <!-- CTA Counter Item End -->
+
+                    <!-- CTA Counter Item Start -->
+                    <div class="cta-counter-item">
+                        <div class="icon-box">
+                            <img src="images/icon-cta-counter-3.svg" alt="">
+                        </div>
+                        <div class="cta-counter-content">
+                            <h2><span class="counter">35</span>k+</h2>
+                            <p>Guests Who've Dined With Us and Shared Moments</p>
+                        </div>
+                    </div>
+                    <!-- CTA Counter Item End -->
+
+                    <!-- CTA Counter Item Start -->
+                    <div class="cta-counter-item">
+                        <div class="icon-box">
+                            <img src="images/icon-cta-counter-4.svg" alt="">
+                        </div>
+                        <div class="cta-counter-content">
+                            <h2><span class="counter">25</span>+</h2>
+                            <p>Local Fishermen Suppliers We Partner With</p>
+                        </div>
+                    </div>
+                    <!-- CTA Counter Item End -->
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<!-- Call To Action Box End -->
+    <!-- Call To Action Box End -->

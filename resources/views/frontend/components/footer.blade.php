@@ -23,10 +23,8 @@
                     <div class="footer-social-links">
                         <h3>Follow On Socials:</h3>
                         <ul>
-                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
                     <!-- Footer Social Link End -->

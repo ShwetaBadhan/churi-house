@@ -2,37 +2,18 @@
 <div class="what-we-do bg-section">
     <div class="container">
         <div class="row section-row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">What We Do</h3>
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">Serving Flavours That Bring People Together
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Why Choose Us</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">
+                        Partner With a Trusted & Growing Food Brand
                     </h2>
                 </div>
                 <!-- Section Title End -->
             </div>
 
-            <div class="col-lg-6">
-                <!-- Section Content Button Start -->
-                <div class="section-content-btn">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content wow fadeInUp" data-wow-delay="0.2s">
-                        <p>At Churi House, we bring together delicious food, refreshing beverages, and warm hospitality
-                            to create memorable dining experiences. From signature specialties and comforting classics
-                            to quick bites and family favorites, every item is prepared with quality, care, and
-                            exceptional taste.
-                        </p>
-                    </div>
-                    <!-- Section Title Content End -->
 
-                    <!-- Section Button Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="{{ route('contact-us') }}" class="btn-default">Contact Us Now</a>
-                    </div>
-                    <!-- Section Button End -->
-                </div>
-                <!-- Section Content Button End -->
-            </div>
         </div>
 
         <div class="row">
@@ -53,20 +34,22 @@
                             </div>
 
                             <div class="what-we-body">
-                                <h2>Freshly Prepared</h2>
-                                <p>Every dish and beverage is made with carefully selected ingredients to ensure quality
-                                    and great taste.
+                                <h2>Proven Business Model</h2>
+                                <p>
+                                    Benefit from a well-established franchise system with standardized
+                                    operations, quality products, and a customer-focused approach designed
+                                    for long-term success.
                                 </p>
                             </div>
                         </div>
                         <!-- What We Content End -->
 
                         <!-- What We Image Start -->
-                        <div class="what-we-img">
+                        <!-- <div class="what-we-img">
                             <figure class="image-anime reveal">
                                 <img src="images/what-we-img-1.jpg" alt="">
                             </figure>
-                        </div>
+                        </div> -->
                         <!-- What We Image End -->
                     </div>
                     <!-- What We Item End -->
@@ -85,21 +68,21 @@
                             </div>
 
                             <div class="what-we-body">
-                                <h2>Diverse Menu
-                                </h2>
-                                <p>From signature specialties and comforting chai to burgers, pizzas, shakes, and more,
-                                    there's something for everyone.
+                                <h2>Diverse & Popular Menu</h2>
+                                <p>
+                                    From signature Churi, chai, burgers, pizzas, wraps, shakes, and more,
+                                    our extensive menu attracts customers across all age groups and tastes.
                                 </p>
                             </div>
                         </div>
                         <!-- What We Content End -->
 
                         <!-- What We Image Start -->
-                        <div class="what-we-img">
+                        <!-- <div class="what-we-img">
                             <figure class="image-anime reveal">
                                 <img src="images/what-we-img-2.jpg" alt="">
                             </figure>
-                        </div>
+                        </div> -->
                         <!-- What We Image End -->
                     </div>
                     <!-- What We Item End -->
@@ -118,20 +101,21 @@
                             </div>
 
                             <div class="what-we-body">
-                                <h2>Warm Hospitality</h2>
-                                <p>We create a welcoming environment where families, friends, and food lovers can enjoy
-                                    memorable moments together.
+                                <h2>Complete Franchise Support</h2>
+                                <p>
+                                    Receive end-to-end assistance including outlet setup, staff training,
+                                    operational guidance, marketing support, and ongoing business development.
                                 </p>
                             </div>
                         </div>
                         <!-- What We Content End -->
 
                         <!-- What We Image Start -->
-                        <div class="what-we-img">
+                        <!-- <div class="what-we-img">
                             <figure class="image-anime reveal">
                                 <img src="images/what-we-img-3.jpg" alt="">
                             </figure>
-                        </div>
+                        </div> -->
                         <!-- What We Image End -->
                     </div>
                     <!-- What We Item End -->

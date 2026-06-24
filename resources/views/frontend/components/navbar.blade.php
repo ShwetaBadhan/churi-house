@@ -9,7 +9,7 @@
                         <div class="topbar-contact-info">
                             <ul >
                                 <li class="has-pipe"><a  href="tel:+919800003447"><img src="images/icon-phone-accent.svg" alt=""><span>Phone: </span>+91 9800003447</a></li>
-                                <li><a href="mailto:churihouse3b2@gmail.com"><img src="images/icon-mail-accent.svg" alt=""><span>Email: </span>churihouse3b2@gmail.com</a></li>
+                                <li><a href="mailto:info@churihouse.com"><img src="images/icon-mail-accent.svg" alt=""><span>Email: </span>info@churihouse.com</a></li>
                             </ul>
                         </div>
                         <!-- Topbar Contact Information End -->
@@ -20,9 +20,9 @@
                         <div class="topbar-social-links">
                             <ul>
                                 <li class="text-white">Follow us on :</li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
                         <!-- Topbar Social Links End -->
@@ -49,19 +49,19 @@
                                 <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About Us</a></li>
                                 
                                 <li class="nav-item"><a class="nav-link" href="{{ route('our-menu') }}">Our Menu</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{ route('locations') }}">Franchise </a></li>
+                                <!-- <li class="nav-item"><a class="nav-link" href="{{ route('locations') }}">Franchise </a></li> -->
                                 <li class="nav-item"><a class="nav-link" href="{{ route('our-gallery') }}">Gallery</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{ route('career') }}">Career</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('career') }}">Careers</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a></li>
                                 {{-- <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> --}}
                                
-                                <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="{{ route('reserve-a-table') }}">Reserve A Table</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a></li>
                             </ul>
                         </div>
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="{{ route('reserve-a-table') }}" class="btn-default">Reserve A Table</a>
+                            <a href="{{ route('locations') }}" class="btn-default">Take Franchise</a>
                         </div>
                         <!-- Header Btn End -->                      
 					</div>
