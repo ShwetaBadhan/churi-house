@@ -245,6 +245,22 @@
                                 'X-Requested-With': 'XMLHttpRequest'
                             },
 
+
+                            beforeSend: function () {
+                                $('#submitBtn').prop('disabled', true);
+
+                                Swal.fire({
+                                    title: 'Please Wait...',
+                                    text: 'Submitting your request...',
+                                    allowOutsideClick: false,
+                                    allowEscapeKey: false,
+                                    showConfirmButton: false,
+                                    didOpen: () => {
+                                        Swal.showLoading();
+                                    }
+                                });
+                            },
+
                             success: function (response) {
 
                                 Swal.fire({
@@ -272,12 +288,22 @@
                                         title: 'Validation Error',
                                         text: 'Please check form fields.'
                                     });
+                                } else {
+
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Error!',
+                                        text: xhr.responseJSON?.message || 'Something went wrong. Please try again.',
+                                        confirmButtonColor: '#dc3545'
+                                    });
                                 }
                             },
 
                             complete: function () {
                                 $('#submitBtn').prop('disabled', false);
                             }
+
+
                         });
 
                     });

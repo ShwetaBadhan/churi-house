@@ -1,14 +1,15 @@
-
 <!DOCTYPE html>
+
 <html>
 
 <head>
     <meta charset="UTF-8">
-    <title>Reservation Confirmation - Churi House</title>
+    <title>Franchise Application Received - Churi House</title>
 </head>
 
 <body style="margin:0;padding:0;background:#f8f5f0;font-family:Arial,Helvetica,sans-serif;">
 
+    
     <table width="100%" cellpadding="0" cellspacing="0" style="background:#f8f5f0;padding:30px 15px;">
         <tr>
             <td align="center">
@@ -18,18 +19,16 @@
 
                     <!-- Header -->
                     <tr>
-                        <td align="center"
-                            style="background:#960917;padding:35px 20px;">
-                            <img src="https://churihouse.technocoderz.com/images/logo/logo.png"
-                                alt="Churi House"
+                        <td align="center" style="background:#960917;padding:35px 20px;">
+                            <img src="https://churihouse.technocoderz.com/images/logo/logo.png" alt="Churi House"
                                 style="max-width:180px;height:auto;display:block;margin-bottom:15px;">
 
                             <h1 style="margin:0;color:#ffffff;font-size:28px;font-weight:bold;">
-                                Reservation Confirmed
+                                Franchise Application Received
                             </h1>
 
                             <p style="margin:10px 0 0;color:#f3d6a3;font-size:16px;">
-                                Thank you for choosing Churi House
+                                Thank you for your interest in partnering with Churi House
                             </p>
                         </td>
                     </tr>
@@ -38,18 +37,24 @@
                     <tr>
                         <td style="padding:35px 40px 20px;">
                             <h2 style="margin-top:0;color:#960917;">
-                                Hello {{ $reservation->name }},
+                                Hello {{ $franchise->name }},
                             </h2>
 
                             <p style="font-size:16px;line-height:1.8;color:#555;">
-                                We're delighted to confirm your table reservation at
-                                <strong>Churi House Restaurant</strong>.
-                                We look forward to serving you an unforgettable dining experience.
+                                Thank you for submitting your franchise application.
+                                We are excited about your interest in becoming a part of the
+                                <strong>Churi House</strong> family.
+                            </p>
+
+                            <p style="font-size:16px;line-height:1.8;color:#555;">
+                                Our team has received your enquiry and will review the details shortly.
+                                If your profile matches our current expansion plans, a representative
+                                will get in touch with you.
                             </p>
                         </td>
                     </tr>
 
-                    <!-- Reservation Details -->
+                    <!-- Application Details -->
                     <tr>
                         <td style="padding:0 40px 30px;">
                             <table width="100%" cellpadding="0" cellspacing="0"
@@ -58,7 +63,7 @@
                                 <tr>
                                     <td colspan="2"
                                         style="background:#960917;color:#fff;padding:15px 20px;font-size:18px;font-weight:bold;">
-                                        Reservation Details
+                                        Your Application Details
                                     </td>
                                 </tr>
 
@@ -67,7 +72,7 @@
                                         <strong>Name</strong>
                                     </td>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        {{ $reservation->name }}
+                                        {{ $franchise->name }}
                                     </td>
                                 </tr>
 
@@ -76,7 +81,7 @@
                                         <strong>Email</strong>
                                     </td>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        {{ $reservation->email }}
+                                        {{ $franchise->email }}
                                     </td>
                                 </tr>
 
@@ -85,46 +90,46 @@
                                         <strong>Phone</strong>
                                     </td>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        {{ $reservation->phone }}
+                                        {{ $franchise->phone }}
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        <strong>Date</strong>
+                                        <strong>Preferred Location</strong>
                                     </td>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        {{ \Carbon\Carbon::parse($reservation->date)->format('d M Y') }}
+                                        {{ $franchise->location ?? 'N/A' }}
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        <strong>Time</strong>
+                                        <strong>Address</strong>
                                     </td>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        {{ $reservation->time }}
+                                        {{ $franchise->address ?? 'N/A' }}
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        <strong>Guests</strong>
+                                        <strong>Franchise Type</strong>
                                     </td>
                                     <td style="padding:15px 20px;border-bottom:1px solid #eee;">
-                                        {{ $reservation->guests }}
+                                        {{ $franchise->type ?? 'N/A' }}
                                     </td>
                                 </tr>
 
-                                @if($reservation->message)
-                                <tr>
-                                    <td style="padding:15px 20px;">
-                                        <strong>Special Request</strong>
-                                    </td>
-                                    <td style="padding:15px 20px;">
-                                        {{ $reservation->message }}
-                                    </td>
-                                </tr>
+                                @if($franchise->message)
+                                    <tr>
+                                        <td style="padding:15px 20px;">
+                                            <strong>Message</strong>
+                                        </td>
+                                        <td style="padding:15px 20px;">
+                                            {{ $franchise->message }}
+                                        </td>
+                                    </tr>
                                 @endif
 
                             </table>
@@ -135,26 +140,25 @@
                     <tr>
                         <td style="padding:0 40px 30px;">
                             <p style="font-size:15px;line-height:1.8;color:#555;">
-                                If you need to modify or cancel your reservation,
-                                please contact us in advance.
+                                We appreciate your interest in growing with Churi House.
+                                Our team will contact you if additional information is required.
                             </p>
 
                             <p style="font-size:15px;line-height:1.8;color:#555;">
-                                We can't wait to welcome you and your guests.
+                                Thank you for considering Churi House as your business partner.
                             </p>
                         </td>
                     </tr>
 
                     <!-- Footer -->
                     <tr>
-                        <td align="center"
-                            style="background:#960917;padding:25px;color:#ffffff;">
+                        <td align="center" style="background:#960917;padding:25px;color:#ffffff;">
                             <h3 style="margin:0 0 10px;">
-                                Churi House Restaurant
+                                Churi House
                             </h3>
 
                             <p style="margin:0;color:#f3d6a3;font-size:14px;">
-                                Authentic Flavors • Warm Hospitality • Memorable Dining
+                                Timeless Elegance • Trusted Partnership • Growing Together
                             </p>
 
                             <p style="margin-top:15px;font-size:12px;color:#d8c2a0;">
@@ -168,6 +172,7 @@
             </td>
         </tr>
     </table>
+    
 
 </body>
 

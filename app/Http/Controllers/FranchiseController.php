@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Franchise;
 use Illuminate\Support\Facades\Http;
+use App\Mail\FranchiseMail;
+use Illuminate\Support\Facades\Mail;
 
 class FranchiseController extends Controller
 {
@@ -52,8 +54,10 @@ class FranchiseController extends Controller
                     ],
                     'message' => [
                         'nullable',
-                        'regex:/^[a-zA-Z\s\.\-]{2,255}$/'
+                        'max:5000',
+                        'regex:/^(?!.*(<|>|script|onload|onclick|javascript:)).*$/i'
                     ],
+
                     'type' => [
                         'nullable',
                         'regex:/^[a-zA-Z\s\.\-]{2,255}$/'
@@ -61,7 +65,7 @@ class FranchiseController extends Controller
 
                 ]);
 
-                Franchise::create([
+                $franchise = Franchise::create([
                     'name' => $request->name,
                     'email' => $request->email,
                     'phone' => $request->phone,
@@ -71,6 +75,13 @@ class FranchiseController extends Controller
                     'type' => $request->type,
                     'ip' => $request->ip(),
                 ]);
+
+                Mail::to(env('MAIL_FROM_ADDRESS'))
+                    ->send(new FranchiseMail($franchise, 'admin'));
+
+                Mail::to($franchise->email)
+                    ->send(new FranchiseMail($franchise, 'customer'));
+
 
                 return response()->json([
                     'success' => true,
@@ -116,15 +127,16 @@ class FranchiseController extends Controller
             ],
             'message' => [
                 'nullable',
-                'regex:/^[a-zA-Z\s\.\-]{2,255}$/'
+                'max:5000',
+                'regex:/^(?!.*(<|>|script|onload|onclick|javascript:)).*$/i'
             ],
+
             'type' => [
                 'nullable',
                 'regex:/^[a-zA-Z\s\.\-]{2,255}$/'
             ],
         ]);
-
-        Franchise::create([
+        $franchise = Franchise::create([
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
@@ -134,6 +146,13 @@ class FranchiseController extends Controller
             'type' => $request->type,
             'ip' => $request->ip(),
         ]);
+
+        Mail::to(env('MAIL_FROM_ADDRESS'))
+            ->send(new FranchiseMail($franchise, 'admin'));
+
+        Mail::to($franchise->email)
+            ->send(new FranchiseMail($franchise, 'customer'));
+
 
         return redirect()->back()->with('success', 'Franchise Application Received! Welcome to the first step of partnering with Churi House.');
     }

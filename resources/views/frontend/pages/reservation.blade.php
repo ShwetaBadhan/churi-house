@@ -171,8 +171,7 @@
 
 @endsection
 @push('scripts')
-    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script>
 
         jQuery(document).ready(function ($) {
@@ -197,6 +196,22 @@
                             data: formData,
                             headers: {
                                 'X-Requested-With': 'XMLHttpRequest'
+                            },
+
+
+                            beforeSend: function () {
+                                $('#submitBtn').prop('disabled', true);
+
+                                Swal.fire({
+                                    title: 'Please Wait...',
+                                    text: 'Submitting your request...',
+                                    allowOutsideClick: false,
+                                    allowEscapeKey: false,
+                                    showConfirmButton: false,
+                                    didOpen: () => {
+                                        Swal.showLoading();
+                                    }
+                                });
                             },
 
                             success: function (response) {
@@ -226,12 +241,22 @@
                                         title: 'Validation Error',
                                         text: 'Please check form fields.'
                                     });
+                                } else {
+
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Error!',
+                                        text: xhr.responseJSON?.message || 'Something went wrong. Please try again.',
+                                        confirmButtonColor: '#dc3545'
+                                    });
                                 }
                             },
 
                             complete: function () {
                                 $('#submitBtn').prop('disabled', false);
                             }
+
+
                         });
 
                     });

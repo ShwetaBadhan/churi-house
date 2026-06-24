@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\ContactLead;
 use Illuminate\Support\Facades\Http;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
 class ContactLeadController extends Controller
 {
-   
+
     public function store(Request $request)
     {
         // Check if request is AJAX
@@ -53,7 +55,7 @@ class ContactLeadController extends Controller
                     ],
                 ]);
 
-                ContactLead::create([
+                $contact = ContactLead::create([
                     'name' => $request->name,
                     'email' => $request->email,
                     'phone' => $request->phone,
@@ -61,6 +63,17 @@ class ContactLeadController extends Controller
                     'message' => $request->message,
                     'ip' => $request->ip(),
                 ]);
+
+                // Send Admin Email
+                Mail::to(env('MAIL_FROM_ADDRESS'))->send(
+                   new ContactMail($contact, 'admin')
+                );
+
+                // Send Customer Email
+                Mail::to($contact->email)->send(
+                    new ContactMail($contact, 'customer')
+                );
+
 
                 return response()->json([
                     'success' => true,
@@ -89,7 +102,7 @@ class ContactLeadController extends Controller
             'message' => ['nullable', 'max:5000', 'regex:/^(?!.*(<|>|script|onload|onclick|javascript:)).*$/i'],
         ]);
 
-        ContactLead::create([
+        $contact = ContactLead::create([
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
@@ -98,7 +111,18 @@ class ContactLeadController extends Controller
             'ip' => $request->ip(),
         ]);
 
+        // Send Admin Email
+        Mail::to(env('MAIL_FROM_ADDRESS'))->send(
+           new ContactMail($contact, 'admin')
+        );
+
+        // Send Customer Email
+        Mail::to($contact->email)->send(
+            new ContactMail($contact, 'customer')
+        );
+
+
         return redirect()->back()->with('success', 'Thank you for reaching out to Churi House!  We\'ve received your message and will get back to you shortly.');
     }
-  
+
 }

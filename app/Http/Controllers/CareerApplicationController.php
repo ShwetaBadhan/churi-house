@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\CareerApplication;
 use Illuminate\Support\Facades\Http;
+use App\Mail\CareerMail;
+use Illuminate\Support\Facades\Mail;
 
 class CareerApplicationController extends Controller
 {
@@ -58,7 +60,7 @@ class CareerApplicationController extends Controller
 
                 ]);
 
-                CareerApplication::create([
+                $career = CareerApplication::create([
                     'name' => $request->name,
                     'email' => $request->email,
                     'phone' => $request->phone,
@@ -67,6 +69,15 @@ class CareerApplicationController extends Controller
                     'location' => $request->location,
                     'ip' => $request->ip(),
                 ]);
+
+                // Admin Email
+                Mail::to(env('MAIL_FROM_ADDRESS'))
+                    ->send(new CareerMail($career, 'admin'));
+
+                // Customer Email
+                Mail::to($career->email)
+                    ->send(new CareerMail($career, 'customer'));
+
 
                 return response()->json([
                     'success' => true,
@@ -101,7 +112,7 @@ class CareerApplicationController extends Controller
             'location' => ['nullable', 'regex:/^[a-zA-Z\s\.\-]{2,255}$/'],
         ]);
 
-        CareerApplication::create([
+        $career = CareerApplication::create([
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
@@ -110,6 +121,15 @@ class CareerApplicationController extends Controller
             'location' => $request->location,
             'ip' => $request->ip(),
         ]);
+
+        // Admin Email
+        Mail::to(env('MAIL_FROM_ADDRESS'))
+            ->send(new CareerMail($career, 'admin'));
+
+        // Customer Email
+        Mail::to($career->email)
+            ->send(new CareerMail($career, 'customer'));
+
 
         return redirect()->back()->with('success', 'Thank you for applying! Your application has been submitted successfully. We will review your profile and get back to you soon..');
     }

@@ -37,6 +37,7 @@
     <link href="css/custom.css" rel="stylesheet" media="screen">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 
 <body>
@@ -195,7 +196,102 @@
         });
 
     </script>
+    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
 
+        jQuery(document).ready(function ($) {
+            $('#newsletterForm').on('submit', function (e) {
+                e.preventDefault();
+
+                $('.error-message').text('');
+
+                grecaptcha.ready(function () {
+
+                    grecaptcha.execute('{{ env("RECAPTCHA_SITE_KEY") }}', { action: 'contact' }).then(function (token) {
+
+                        let form = $('#newsletterForm');
+
+                        let formData = form.serialize() + "&g-recaptcha-response=" + token;
+
+                        $('#submitBtn').prop('disabled', true);
+
+                        $.ajax({
+                            url: form.attr('action'),
+                            method: 'POST',
+                            data: formData,
+                            headers: {
+                                'X-Requested-With': 'XMLHttpRequest'
+                            },
+
+
+                            beforeSend: function () {
+                                $('#submitBtn').prop('disabled', true);
+
+                                Swal.fire({
+                                    title: 'Please Wait...',
+                                    text: 'Submitting your request...',
+                                    allowOutsideClick: false,
+                                    allowEscapeKey: false,
+                                    showConfirmButton: false,
+                                    didOpen: () => {
+                                        Swal.showLoading();
+                                    }
+                                });
+                            },
+
+                            success: function (response) {
+
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Success!',
+                                    text: response.message,
+                                    confirmButtonColor: '#28a745'
+                                });
+
+                                form[0].reset();
+                            },
+
+                            error: function (xhr) {
+
+                                if (xhr.status === 422) {
+
+                                    let errors = xhr.responseJSON.errors;
+
+                                    $.each(errors, function (key, value) {
+                                        $('#' + key + '-error').text(value[0]);
+                                    });
+
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Validation Error',
+                                        text: 'Please check form fields.'
+                                    });
+                                } else {
+
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Error!',
+                                        text: xhr.responseJSON?.message || 'Something went wrong. Please try again.',
+                                        confirmButtonColor: '#dc3545'
+                                    });
+                                }
+                            },
+
+                            complete: function () {
+                                $('#submitBtn').prop('disabled', false);
+                            }
+
+
+                        });
+
+                    });
+
+                });
+
+            });
+        });
+    </script>
 </body>
 
 </html>

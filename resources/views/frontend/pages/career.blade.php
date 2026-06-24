@@ -126,7 +126,7 @@
                 <div class="col-lg-7">
                     <!-- Reserve Table Form Start -->
                     <div class="reserve-table-form wow fadeInUp" data-wow-delay="0.2s">
-                        <form id="careerForm" action="{{ route('career.store') }}" method="POST" >
+                        <form id="careerForm" action="{{ route('career.store') }}" method="POST">
                             @csrf
 
                             <div class="row">
@@ -232,8 +232,7 @@
     </div>
 @endsection
 @push('scripts')
-    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script>
 
         jQuery(document).ready(function ($) {
@@ -258,6 +257,22 @@
                             data: formData,
                             headers: {
                                 'X-Requested-With': 'XMLHttpRequest'
+                            },
+
+
+                            beforeSend: function () {
+                                $('#submitBtn').prop('disabled', true);
+
+                                Swal.fire({
+                                    title: 'Please Wait...',
+                                    text: 'Submitting your request...',
+                                    allowOutsideClick: false,
+                                    allowEscapeKey: false,
+                                    showConfirmButton: false,
+                                    didOpen: () => {
+                                        Swal.showLoading();
+                                    }
+                                });
                             },
 
                             success: function (response) {
@@ -287,12 +302,22 @@
                                         title: 'Validation Error',
                                         text: 'Please check form fields.'
                                     });
+                                } else {
+
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Error!',
+                                        text: xhr.responseJSON?.message || 'Something went wrong. Please try again.',
+                                        confirmButtonColor: '#dc3545'
+                                    });
                                 }
                             },
 
                             complete: function () {
                                 $('#submitBtn').prop('disabled', false);
                             }
+
+
                         });
 
                     });

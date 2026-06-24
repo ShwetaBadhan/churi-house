@@ -81,11 +81,12 @@
                     <p>Subscribe our newsletter to get more updates.!</p>
                     <!-- Footer NewsLetter Form Start -->
                     <div class="footer-newsletter-form">
-                        <form id="newslettersForm" action="#" method="POST">
+                        <form id="newsletterForm" action="{{ route('subscribe.store') }}" method="POST">
+                            @csrf
                             <div class="form-group">
-                                <input type="email" name="mail" class="form-control" id="mail"
+                                <input type="email" name="email" class="form-control" 
                                     placeholder="E-mail Address *" required>
-                                <button type="submit" class="newsletter-btn"><img src="images/arrow-accent.svg"
+                                <button type="submit" id="submitBtn" class="newsletter-btn"><img src="images/arrow-accent.svg"
                                         alt=""></button>
                             </div>
                         </form>
