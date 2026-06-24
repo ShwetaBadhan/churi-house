@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactLeadController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\CareerApplicationController;
+use App\Http\Controllers\FranchiseController;
 
 
 Route::get('/', function () {
@@ -52,3 +53,4 @@ Route::get('/career', function () {
 Route::post('/contact-us/store', [ContactLeadController::class, 'store'])->name('contact-us.store');
 Route::post('/reserve-a-table/store', [ReservationController::class, 'store'])->name('reserve-a-table.store');
 Route::post('/career/store', [CareerApplicationController::class, 'store'])->name('career.store');
+Route::post('/locations/store', [FranchiseController::class, 'store'])->name('locations.store');
