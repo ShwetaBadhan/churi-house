@@ -7,6 +7,32 @@
         </div>
 
         <div class="row g-4">
+             <div class="col-lg-3 col-md-6">
+                <div class="ch_bestseller_card">
+                    <div class="ch_bestseller_image">
+                        <img src="{{ asset('images/chai.jpg') }}" alt="">
+                    </div>
+
+                    <div class="ch_bestseller_content">
+                        <h5> Chai</h5>
+
+
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6">
+                <div class="ch_bestseller_card">
+                    <div class="ch_bestseller_image">
+                        <img src="{{ asset('images/churi.jpg') }}" alt="">
+                    </div>
+
+                    <div class="ch_bestseller_content">
+                        <h5> Churi</h5>
+
+
+                    </div>
+                </div>
+            </div>
 
             <div class="col-lg-3 col-md-6">
                 <div class="ch_bestseller_card">
@@ -88,32 +114,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="ch_bestseller_card">
-                    <div class="ch_bestseller_image">
-                        <img src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?w=600" alt="">
-                    </div>
+          
 
-                    <div class="ch_bestseller_content">
-                        <h5>Pasta</h5>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="ch_bestseller_card">
-                    <div class="ch_bestseller_image">
-                        <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
-                    </div>
-
-                    <div class="ch_bestseller_content">
-                        <h5> Chai</h5>
-
-
-                    </div>
-                </div>
-            </div>
+           
 
            
 
