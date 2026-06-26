@@ -7,7 +7,8 @@
                 <div class="section-title text-center">
                     <h3 class="wow fadeInUp">Why Choose Us</h3>
                     <h2 class="text-anime-style-3" data-cursor="-opaque">
-                        Partner With a Trusted & Growing Food Brand
+                        More Than a Meal — It's an Experience
+
                     </h2>
                 </div>
                 <!-- Section Title End -->
@@ -34,11 +35,11 @@
                             </div>
 
                             <div class="what-we-body">
-                                <h2>Proven Business Model</h2>
+                                <h2>Authentic Flavours</h2>
                                 <p>
-                                    Benefit from a well-established franchise system with standardized
-                                    operations, quality products, and a customer-focused approach designed
-                                    for long-term success.
+                                    Experience the rich taste of traditional recipes prepared with care, bringing you
+                                    the comfort and authenticity of Indian cuisine.
+
                                 </p>
                             </div>
                         </div>
@@ -68,10 +69,12 @@
                             </div>
 
                             <div class="what-we-body">
-                                <h2>Diverse & Popular Menu</h2>
+                                <h2>Freshly Crafted Every Day
+                                </h2>
                                 <p>
-                                    From signature Churi, chai, burgers, pizzas, wraps, shakes, and more,
-                                    our extensive menu attracts customers across all age groups and tastes.
+                                    From wholesome meals to refreshing beverages, every item is made using quality
+                                    ingredients to ensure freshness and great taste.
+
                                 </p>
                             </div>
                         </div>
@@ -101,10 +104,12 @@
                             </div>
 
                             <div class="what-we-body">
-                                <h2>Complete Franchise Support</h2>
+                                <h2>Comfort in Every Visit
+                                </h2>
                                 <p>
-                                    Receive end-to-end assistance including outlet setup, staff training,
-                                    operational guidance, marketing support, and ongoing business development.
+                                    From the ambiance to the service, every detail is thoughtfully crafted to make you
+                                    feel at home.
+
                                 </p>
                             </div>
                         </div>

@@ -6,7 +6,8 @@
                 <!-- Section Title Start -->
                 <div class="section-title section-title-center">
                     <h3 class="wow fadeInUp">our team</h3>
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">Come meet the people behind the flavor magic
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Dedicated to Every Detail, Committed to Every Guest
+
                     </h2>
                 </div>
                 <!-- Section Title End -->

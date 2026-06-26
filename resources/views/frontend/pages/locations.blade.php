@@ -48,7 +48,7 @@
                     <div class="contact-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Start Your Franchise Journey With Us</h2>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Grow with a brand people love.  </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
                                 Interested in bringing the Seabud experience to your city? Connect with us to explore
                                 exciting franchise opportunities, business support, and the benefits of joining our growing
@@ -130,7 +130,7 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3 class="wow fadeInUp">EXPAND WITH US ACROSS INDIA</h3>
-                <h2 class="text-anime-style-3" data-cursor="-opaque">Join Our Successful Franchise Network</h2>
+                <h2 class="text-anime-style-3" data-cursor="-opaque">Be part of a growing brand that's bringing great food and memorable experiences. </h2>
             </div>
 
 

@@ -22,9 +22,10 @@
                 <div class="hero-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">EXPERIENCE AUTHENTIC FLAVOURS AT CHURI HOUSE </h3>
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Churi House – Where Tradition Meets Every
-                            Taste
+                        <h3 class="wow fadeInUp">Indulge in Authentic Flavours at Churi House </h3>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Churi House – Where Every Taste Meets
+                            Tradition.
+
                         </h1>
                     </div>
                     <!-- Section Title End -->
@@ -38,7 +39,7 @@
                 <!-- Hero Content End -->
             </div>
 
-           
+
         </div>
     </div>
 </div>

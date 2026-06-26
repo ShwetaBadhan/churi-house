@@ -80,7 +80,6 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    @stack('scripts')
     <script>
         window.addEventListener('DOMContentLoaded', () => {
 
@@ -292,6 +291,8 @@
             });
         });
     </script>
+    @stack('scripts')
+
 </body>
 
 </html>

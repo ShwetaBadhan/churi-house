@@ -119,7 +119,8 @@
         <div class="container">
             <div class="section-title section-title-center mb-4">
                 <h3 class="wow fadeInUp"> Our Specials</h3>
-                <h2 class="text-anime-style-3" data-cursor="-opaque"> Signature Flavors Made For You</h2>
+                <h2 class="text-anime-style-3" data-cursor="-opaque"> Handpicked Favorites, Crafted to Delight 
+</h2>
             </div>
 
 
