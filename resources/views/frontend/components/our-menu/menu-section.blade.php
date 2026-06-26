@@ -4,28 +4,44 @@
 
         <!-- Menu Tabs -->
         <ul class="nav nav-pills cfm_menu_tabs justify-content-center" id="menuTab" role="tablist">
-
+            <!-- chai -->
             <li class="nav-item">
                 <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#chai">
                     <i class="fa-solid fa-mug-hot"></i> Chai
                 </button>
             </li>
-
-
-
+            <!-- milk -->
+            <li class="nav-item">
+                <button class="nav-link " data-bs-toggle="pill" data-bs-target="#milk">
+                    <i class="fa-solid fa-mug-hot"></i> Milk
+                </button>
+            </li>
+            <!-- churi -->
+            <li class="nav-item">
+                <button class="nav-link " data-bs-toggle="pill" data-bs-target="#churi">
+                    <i class="fa-solid fa-mug-hot"></i> Churi
+                </button>
+            </li>
+            <!-- coffee -->
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#coffee">
-                    <i class="fa-solid fa-mug-saucer"></i> Cold Coffee
+                    <i class="fa-solid fa-mug-saucer"></i> Coffee
                 </button>
             </li>
-
-
-
+            <!-- shakes -->
             <li class="nav-item">
-                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pasta">
-                    <i class="fa-solid fa-utensils"></i> Pasta
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#shakes">
+                    <i class="fa-solid fa-mug-saucer"></i> Shakes
                 </button>
             </li>
+            <!-- Mojito  -->
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#mojito">
+                    <i class="fa-solid fa-mug-saucer"></i> Mojito 
+                </button>
+            </li>
+
+
 
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pizza">
@@ -66,7 +82,7 @@
                             </div>
 
                             <div class="cfm_food_content">
-                                <h5>Masala Chai</h5>
+                                <h5>Rose Chai</h5>
                             </div>
                         </div>
                     </div>
@@ -83,11 +99,592 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Kesar Chai</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Chocolate Chai</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Paan Chai</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Gurh Chai</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Masala Chai</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Green Tea</h5>
+
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 
             </div>
+            <!-- Milk -->
+            <div class="tab-pane fade" id="milk">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Milk</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Milk</h2>
+                </div>
+                <div class="row g-4">
 
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Kaadni Milk</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Elaichi Kaadni Milk</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Kesar Kaadni Milk</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- churi -->
+            <div class="tab-pane fade" id="churi">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Desi Ghee Churi</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Desi Ghee Churi</h2>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Desi Ghee Churi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Dry Fruit Churi (Desi Ghee)</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Desi Ghee Double Shot Churi</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Coffee -->
+            <div class="tab-pane fade" id="coffee">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Coffee</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque"> Coffee</h2>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Classic Cold Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Strong Cold Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Chocolate Cold Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Chocolate with Ice Cream Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Caramel Cold Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Brownie Cold Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>CH Spl. Cold Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Hot Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Black Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Strong Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Chocolate Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Vanilla Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Caramel Coffee</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!-- Coffee -->
+            <div class="tab-pane fade" id="shakes">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Shakes</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque"> Shakes</h2>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Vanilla Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Strawberry Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Butter Scotch Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Black Current Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Bubblegum Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Kitkat Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Oreo Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Brownie Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Belgian Chocolate Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Mix Fruit Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>American Nuts Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Malai Rabri Shake</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+
+                </div>
+            </div>
+            <!-- Mojito  -->
+            <div class="tab-pane fade" id="mojito ">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Mojito </h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque"> Mojito </h2>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Nimbu Pani</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Masala Lemonade</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Lemon Ice Tea</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Classic Mojito</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Blue Curracao Mojito</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Peach Mojito</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Watermelon Mojito</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Green Apple Mojito</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Blueberry Mojito</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+
+
+                </div>
+            </div>
             <!-- Pizza -->
             <div class="tab-pane fade" id="pizza">
 
@@ -117,7 +714,95 @@
                             </div>
 
                             <div class="cfm_food_content">
-                                <h5>Farm House Pizza</h5>
+                                <h5>Cheese Corn Pizza</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Spicy Treat Pizza</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>OTP Pizza</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Farm Fresh Pizza</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Mushroom Special Pizza</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>The Green Flag Pizza</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Mexican Spice Pizza</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Makhani Paneer Pizza</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Churi House Special Pizza</h5>
                             </div>
                         </div>
                     </div>
@@ -146,131 +831,16 @@
                         </div>
                     </div>
 
-                   
+
 
                 </div>
             </div>
 
-            <!-- Coffee -->
-            <div class="tab-pane fade" id="coffee">
-                <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Explore Our Cold Coffee</h3>
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">Cold Coffee</h2>
-                </div>
-                <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cfm_food_card">
-                            <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
-                            </div>
 
-                            <div class="cfm_food_content">
-                                <h5>Coffee</h5>
-                            </div>
-                        </div>
-                    </div>
+          
 
-                   
 
-                </div>
-            </div>
-
-            <!-- Shakes -->
-            <div class="tab-pane fade" id="shakes">
-                <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Explore Our Shakes</h3>
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">Shakes</h2>
-                </div>
-                <div class="row g-4">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cfm_food_card">
-                            <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
-                            </div>
-
-                            <div class="cfm_food_content">
-                                <h5>Adrak Chai</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cfm_food_card">
-                            <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
-                            </div>
-
-                            <div class="cfm_food_content">
-                                <h5>Masala Chai</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cfm_food_card">
-                            <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
-                            </div>
-
-                            <div class="cfm_food_content">
-                                <h5>Elaichi Chai</h5>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Milk -->
-            <div class="tab-pane fade" id="milk">
-                <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Explore Our Milk</h3>
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">Milk</h2>
-                </div>
-                <div class="row g-4">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cfm_food_card">
-                            <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
-                            </div>
-
-                            <div class="cfm_food_content">
-                                <h5>Adrak Chai</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cfm_food_card">
-                            <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
-                            </div>
-
-                            <div class="cfm_food_content">
-                                <h5>Masala Chai</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="cfm_food_card">
-                            <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
-                            </div>
-
-                            <div class="cfm_food_content">
-                                <h5>Elaichi Chai</h5>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
 
         </div>
 
