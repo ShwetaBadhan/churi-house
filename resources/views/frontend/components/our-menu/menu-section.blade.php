@@ -4,45 +4,50 @@
 
         <!-- Menu Tabs -->
         <ul class="nav nav-pills cfm_menu_tabs justify-content-center" id="menuTab" role="tablist">
-            <!-- chai -->
+
+            <!-- Chai -->
             <li class="nav-item">
                 <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#chai">
                     <i class="fa-solid fa-mug-hot"></i> Chai
                 </button>
             </li>
-            <!-- milk -->
+
+            <!-- Milk -->
             <li class="nav-item">
-                <button class="nav-link " data-bs-toggle="pill" data-bs-target="#milk">
-                    <i class="fa-solid fa-mug-hot"></i> Milk
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#milk">
+                    <i class="fa-solid fa-glass-water"></i> Milk
                 </button>
             </li>
-            <!-- churi -->
+
+            <!-- Churi -->
             <li class="nav-item">
-                <button class="nav-link " data-bs-toggle="pill" data-bs-target="#churi">
-                    <i class="fa-solid fa-mug-hot"></i> Churi
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#churi">
+                    <i class="fa-solid fa-bowl-food"></i> Churi
                 </button>
             </li>
-            <!-- coffee -->
+
+            <!-- Coffee -->
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#coffee">
                     <i class="fa-solid fa-mug-saucer"></i> Coffee
                 </button>
             </li>
-            <!-- shakes -->
+
+            <!-- Shakes -->
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#shakes">
-                    <i class="fa-solid fa-mug-saucer"></i> Shakes
+                    <i class="fa-solid fa-blender"></i> Shakes
                 </button>
             </li>
-            <!-- Mojito  -->
+
+            <!-- Mojito -->
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#mojito">
-                    <i class="fa-solid fa-mug-saucer"></i> Mojito 
+                    <i class="fa-solid fa-glass-water"></i> Mojito
                 </button>
             </li>
 
-
-
+            <!-- Pizza -->
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pizza">
                     <i class="fa-solid fa-pizza-slice"></i> Pizza
@@ -565,7 +570,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
 
 
 
@@ -678,8 +683,8 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
+
+
 
 
 
@@ -838,7 +843,7 @@
 
 
 
-          
+
 
 
 
