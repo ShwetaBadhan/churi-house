@@ -27,7 +27,7 @@
                         </div>
                         <div class="history-item-image">
                             <figure>
-                                <img src="images/history-image-1.jpg" alt="">
+                                <img src="{{ asset('images/upload/history-01.jpg') }}" alt="">
                             </figure>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                         </div>
                         <div class="history-item-image">
                             <figure>
-                                <img src="images/history-image-2.jpg" alt="">
+                                <img src="{{ asset('images/upload/history-02.jpg') }}" alt="">
                             </figure>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         </div>
                         <div class="history-item-image">
                             <figure>
-                                <img src="images/history-image-3.jpg" alt="">
+                                <img src="{{ asset('images/upload/history-03.jpg') }}" alt="">
                             </figure>
                         </div>
                     </div>

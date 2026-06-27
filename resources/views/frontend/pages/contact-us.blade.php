@@ -33,7 +33,7 @@
                     <div class="contact-us-image">
                         <div class="contact-us-img">
                             <figure class="image-anime">
-                                <img src="https://churihouse.com/wp-content/uploads/2025/02/Background.png" alt="">
+                                <img src="{{ asset('images/upload/contact-us.jpg') }}" alt="">
                             </figure>
                         </div>
 

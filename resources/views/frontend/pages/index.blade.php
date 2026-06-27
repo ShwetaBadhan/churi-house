@@ -132,35 +132,35 @@
 
                     <div class="ch-specials-item active" data-title="Pizza"
                         data-desc="Classic pizza topped with rich mozzarella cheese, fresh tomato sauce,and aromatic herbs."
-                        data-img="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600">
+                        data-img="{{ asset('images/upload/special/Pizza.jpg') }}">
                         <span>01</span>
                         Pizza
                     </div>
 
                     <div class="ch-specials-item" data-title="Aloo Toast"
                         data-desc="Crispy toasted bread stuffed with a flavorful potato filling and served fresh."
-                        data-img="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=1000">
+                        data-img="{{ asset('images/upload/special/Aloo-Toast.jpg') }}">
                         <span>02</span>
                         Aloo Toast
                     </div>
 
                     <div class="ch-specials-item" data-title="French Toast"
                         data-desc="Golden toasted bread with rich flavors, perfect for breakfast or an evening snack."
-                        data-img="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=1000">
+                        data-img="{{ asset('images/upload/special/French-Toast.jpg') }}">
                         <span>03</span>
                         French Toast
                     </div>
 
                     <div class="ch-specials-item" data-title="Chai"
                         data-desc="Aromatic, freshly brewed chai with rich flavors and comforting warmth."
-                        data-img="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800">
+                        data-img="{{ asset('images/upload/special/Chai.jpg') }}">
                         <span>04</span>
                         Chai
                     </div>
 
                     <div class="ch-specials-item" data-title="Wrap"
                         data-desc="Freshly filled wraps packed with flavor in every bite."
-                        data-img="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600">
+                        data-img="{{ asset('images/upload/special/Wrap.jpg') }}">
                         <span>05</span>
                         Wrap
                     </div>
@@ -186,7 +186,7 @@
 
                 <!-- Right Image -->
                 <div class="ch-specials-image">
-                    <img id="specialImage" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600" alt="">
+                    <img id="specialImage" src="{{ asset('images/upload/special/Pizza.jpg') }}" alt="">
                 </div>
 
             </div>

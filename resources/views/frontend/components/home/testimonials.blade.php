@@ -6,7 +6,7 @@
                 <!-- Testimonials Image Start -->
                 <div class="testimonials-image">
                     <figure class="image-anime">
-                        <img src="images/testimonials-image.jpg" alt="">
+                        <img src="{{ asset('images/upload/testimonial.jpg') }}" alt="">
                     </figure>
                 </div>
                 <!-- Testimonials Image End -->

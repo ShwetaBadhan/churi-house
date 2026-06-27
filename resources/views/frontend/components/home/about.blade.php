@@ -10,7 +10,7 @@
                         <!-- About Image Start -->
                         <div class="about-image">
                             <figure class="image-anime reveal">
-                                <img src="images/about/about.png" alt="">
+                                <img src="{{ asset('images/upload/home-a.jpg') }}" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -28,14 +28,14 @@
                     <div class="about-image-box-2">
                         <!-- Contact Circle Start -->
                         <div class="contact-us-circle">
-                            <a href="{{ route('contact-us') }}"><img src="images/contact-us-circle.svg" alt=""></a>
+                            <a href="{{ route('contact-us') }}"><img src="{{ asset('images/upload/about-contact.svg') }}" alt=""></a>
                         </div>
                         <!-- Contact Circle End -->
 
                         <!-- About Image Start -->
                         <div class="about-image">
                             <figure class="image-anime">
-                                <img src="images/about-us-image-2.jpg" alt="">
+                                <img src="{{ asset('images/upload/home-b.png') }}" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->

@@ -21,32 +21,13 @@
                     <!-- Gallery Image Start -->
                     <div class="gallery-image wow fadeInUp">
                         <figure>
-                            <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0012.jpg"
+                            <img src="{{ asset('images/upload/home-b.png') }}"
                                 alt="">
                         </figure>
                         
                     </div>
                     <!-- Gallery Image End -->
 
-                    <!-- Gallery Image Start -->
-                    <div class="gallery-image wow fadeInUp" data-wow-delay="0.2s">
-                        <figure>
-                            <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0006.jpg"
-                                alt="">
-                        </figure>
-                       
-                    </div>
-                    <!-- Gallery Image End -->
-
-                    <!-- Gallery Image Start -->
-                    <div class="gallery-image wow fadeInUp" data-wow-delay="0.4s">
-                        <figure>
-                            <img src="https://churihouse.com/wp-content/uploads/2024/12/CHURI-CAFEMOHALI-1_page-0008.jpg"
-                                alt="">
-                        </figure>
-                      
-                    </div>
-                    <!-- Gallery Image End -->
 
                 </div>
                 <!-- Our Gallery Box End -->

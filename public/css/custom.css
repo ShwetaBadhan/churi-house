@@ -1159,7 +1159,7 @@ header.main-header .header-sticky.active {
 }
 
 .contact-us-circle a img {
-    max-width: 140px;
+    width: 140px;
     border-radius: 50%;
     animation: infiniterotate 20s infinite linear;
 }
@@ -2686,7 +2686,7 @@ header.main-header .header-sticky.active {
 
 .page-header {
     position: relative;
-    background: url("../images/banner.jpg") no-repeat;
+    background: url("../images/upload/common-banner.jpeg") no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 320px 0 210px;
@@ -6863,4 +6863,188 @@ header.main-header .header-sticky.active {
         height: 85px;
         font-size: 42px;
     }
+}
+
+.ch-mv-section{
+    background:#fbf7f2;
+    position:relative;
+    overflow:hidden;
+    padding:60px 0 120px;
+}
+
+.ch-mv-section::before{
+    content:"";
+    position:absolute;
+    width:320px;
+    height:320px;
+    background:#d89a4d15;
+    border-radius:50%;
+    top:-120px;
+    right:-120px;
+}
+
+.ch-mv-section::after{
+    content:"";
+    position:absolute;
+    width:260px;
+    height:260px;
+    background:#7a4b2210;
+    border-radius:50%;
+    left:-80px;
+    bottom:-80px;
+}
+
+.ch-mv-heading{
+    max-width:760px;
+    margin:auto;
+    margin-bottom:40px;
+    position:relative;
+    z-index:2;
+}
+
+.ch-mv-subtitle{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:50px;
+    background:#f4e2cb;
+    color:#8b5a2b;
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+.ch-mv-heading h2{
+    font-size:42px;
+    font-weight:700;
+    color:#2b1c14;
+    margin-bottom:20px;
+}
+
+.ch-mv-heading p{
+    color:#666;
+    line-height:1.8;
+}
+
+.ch-mv-card{
+    background:#fff;
+    border-radius:24px;
+    padding:45px;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+    transition:.4s;
+    box-shadow:0 15px 45px rgba(0,0,0,.06);
+}
+
+.ch-mv-card::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:6px;
+    left:0;
+    top:0;
+    background:linear-gradient(90deg, #b62d39, #fa818c);
+}
+
+.ch-mv-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 22px 60px rgba(0,0,0,.12);
+}
+
+.ch-mv-card-alt::before{
+    background:linear-gradient(90deg, #b62d39, #fa818c);
+}
+
+.ch-mv-icon{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:#f8e5e7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    color:#bb333f;
+    margin-bottom:25px;
+}
+
+.ch-mv-label{
+    display:inline-block;
+    color:#bb333f;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.ch-mv-card h4{
+    font-size:30px;
+    color:#2b1c14;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.ch-mv-card p{
+    color:#666;
+    line-height:1.9;
+    margin-bottom:25px;
+}
+
+.ch-mv-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.ch-mv-list li{
+    position:relative;
+    padding-left:32px;
+    margin-bottom:14px;
+    color:#444;
+    font-weight:500;
+}
+
+.ch-mv-list li::before{
+    content:"✔";
+    position:absolute;
+    left:0;
+    top:0;
+    color:#ba313d;
+    font-weight:700;
+}
+
+@media(max-width:991px){
+
+    .ch-mv-heading h2{
+        font-size:34px;
+    }
+
+    .ch-mv-card{
+        padding:35px;
+    }
+
+    .ch-mv-card h4{
+        font-size:26px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .ch-mv-heading h2{
+        font-size:28px;
+    }
+
+    .ch-mv-card{
+        padding:30px 25px;
+    }
+
+    .ch-mv-icon{
+        width:65px;
+        height:65px;
+        font-size:28px;
+    }
+
+    .ch-mv-card h4{
+        font-size:22px;
+    }
+
 }

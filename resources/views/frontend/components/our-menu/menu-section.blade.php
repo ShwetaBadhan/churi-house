@@ -71,7 +71,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Adrak-Chai.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -83,7 +83,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Rose-Chai.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -95,7 +95,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Elaichi-Chai.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -107,7 +107,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Kesar-Chai.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -119,7 +119,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Chcolate-chai.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -131,7 +131,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Pann-Chai.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -143,7 +143,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Gurh-Chai.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -155,7 +155,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Masala-Chai.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -167,7 +167,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Chai/Green-Tea.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -191,7 +191,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Milk/Kaadni-Milk.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -203,7 +203,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Milk/Elaichi-Kaadni-Milk.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -215,7 +215,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Milk/Kesar-Kaadni-Milk.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -238,7 +238,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Churi.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -250,7 +250,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Churi-Dry-Fruit.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -262,7 +262,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Double-Shot-Churi.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -285,7 +285,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Cold-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -296,7 +296,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Strong-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -307,7 +307,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-Cold-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -318,7 +318,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-with-Ice-Cream-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -329,7 +329,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Caramel-Cold-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -340,7 +340,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Brownie-Cold-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -351,7 +351,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/CH-Spl.-Cold-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -362,7 +362,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Hot-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -373,7 +373,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Black-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -384,7 +384,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Strong-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -395,7 +395,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -406,7 +406,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Vanilla-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -417,7 +417,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Caramel-Coffee.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -441,7 +441,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Vanilla-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -452,7 +452,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Strawberry-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -463,7 +463,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Butter-Scotch-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -474,7 +474,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Black-Current-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -485,7 +485,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Bubblegum-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -496,7 +496,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Kitkat-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -507,7 +507,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Oreo-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -518,7 +518,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Brownie-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -529,7 +529,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Belgian-Chocolate-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -540,7 +540,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Mix-Fruit-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -551,7 +551,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/American-Nuts-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -562,7 +562,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Malai-Rabri-Shake.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -587,7 +587,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -703,7 +703,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Margherita-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -715,7 +715,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Cheese-Corn-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -726,7 +726,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Spicy-Treat-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -737,7 +737,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/OTP-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -748,7 +748,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Farm-Fresh-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -759,7 +759,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Mushroom-Special-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -770,7 +770,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/The-Green-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -781,7 +781,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Mexican-Spice-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -792,7 +792,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Makhani-Paneer-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -803,7 +803,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Churi-House-Special-Pizza.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
