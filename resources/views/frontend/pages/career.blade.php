@@ -9,11 +9,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Career</h1>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Careers</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home') }}">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Career</li>
+                                <li class="breadcrumb-item active" aria-current="page">Careers</li>
                             </ol>
                         </nav>
                     </div>
