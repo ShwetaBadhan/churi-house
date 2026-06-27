@@ -930,6 +930,11 @@ header.main-header .header-sticky.active {
     object-fit: cover;
 }
 
+@media (max-width:600px) {
+    .hero .hero-bg-video{
+        top:107px;
+    }
+}
 .hero.hero-bg-image {
     background: url("../images/hero-bg.jpg") no-repeat;
     background-position: center center;
@@ -4491,7 +4496,7 @@ header.main-header .header-sticky.active {
     .hero {
         min-height: auto;
         align-content: start;
-        padding: 200px 0 150px;
+        /* padding: 200px 0 150px; */
     }
 
     .hero.hero-slider-layout .hero-slide {
