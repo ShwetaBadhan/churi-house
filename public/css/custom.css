@@ -629,7 +629,7 @@ header.main-header .header-sticky.active {
 .navbar {
     background: var(--white-color);
     border-radius: 30px;
-    padding: 30px 15px;
+    padding:  15px;
     align-items: center;
 }
 
