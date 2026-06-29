@@ -83,28 +83,22 @@
                     <!-- About Body List End -->
 
                     <!-- About Counter List Start -->
-                    <div class="about-counter-list">
-                        <!-- About Counter Item Start -->
+                    <!-- <div class="about-counter-list">
                         <div class="about-counter-item">
                             <h2><span class="counter">50</span>+</h2>
                             <p>Franchise</p>
                         </div>
-                        <!-- About Counter Item End -->
 
-                        <!-- About Counter Item Start -->
                         <div class="about-counter-item">
                             <h2><span class="counter">10</span>K+</h2>
                             <p>Happy Customers</p>
                         </div>
-                        <!-- About Counter Item End -->
 
-                        <!-- About Counter Item Start -->
                         <div class="about-counter-item">
                             <h2><span class="counter">15</span>+</h2>
                             <p>Food Categories</p>
                         </div>
-                        <!-- About Counter Item End -->
-                    </div>
+                    </div> -->
                     <!-- About Counter List End -->
 
                     <!-- About Button Start -->

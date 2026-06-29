@@ -291,6 +291,85 @@
             });
         });
     </script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,hi,fr,de,es,it,ja,ru,ar,zh-CN',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        const counters = document.querySelectorAll(".ch-counter");
+
+        const observer = new IntersectionObserver(entries => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+
+                    const counter = entry.target;
+                    const target = +counter.dataset.count;
+
+                    let count = 0;
+
+                    const speed = target / 120;
+
+                    const update = () => {
+
+                        count += speed;
+
+                        if (count < target) {
+                            counter.innerText = Math.ceil(count).toLocaleString();
+                            requestAnimationFrame(update);
+                        } else {
+                            counter.innerText = target.toLocaleString();
+                        }
+
+                    };
+
+                    update();
+
+                    observer.unobserve(counter);
+
+                }
+
+            });
+
+        }, { threshold: .5 });
+
+        counters.forEach(counter => observer.observe(counter));
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const cards = document.querySelectorAll(".ch-history-card");
+
+            const observer = new IntersectionObserver((entries) => {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1";
+                        entry.target.style.transform = "translateY(0)";
+                    }
+
+                });
+
+            }, { threshold: .2 });
+
+            cards.forEach(card => {
+
+                card.style.opacity = "0";
+                card.style.transform = "translateY(60px)";
+                card.style.transition = "all .8s ease";
+
+                observer.observe(card);
+
+            });
+
+        });
+    </script>
+
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     @stack('scripts')
 
 </body>

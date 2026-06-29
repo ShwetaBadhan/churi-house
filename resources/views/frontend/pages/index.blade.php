@@ -5,112 +5,148 @@
     @include('frontend.components.home.hero')
     @include('frontend.components.home.about')
 
-    <!-- dummy counter -->
-    <!-- <section class="ch-fr-counter-bg-section bg-section">
-                                                                    <div class="ch-fr-counter-overlay"></div>
+    <section class="ch-counter-section bg-section">
+        <div class="ch-counter-overlay"></div>
 
-                                                                    <div class="container position-relative">
-                                                                        <div class="row">
+        <div class="container">
+            <div class="row g-4">
 
-                                                                            <div class="col-lg-3 col-6">
-                                                                                <div class="ch-fr-counter-box">
-                                                                                    <h2><span class="counter">50</span>+</h2>
-                                                                                    <h4>Menu Items</h4>
-                                                                                </div>
-                                                                            </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ch-counter-card">
+                        <div class="ch-counter-icon">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <h3><span class="ch-counter" data-count="25">0</span>+</h3>
+                        <p>Years of Craftsmanship</p>
+                    </div>
+                </div>
 
-                                                                            <div class="col-lg-3 col-6">
-                                                                                <div class="ch-fr-counter-box">
-                                                                                    <h2><span class="counter">100</span>K+</h2>
-                                                                                    <h4>Happy Customers</h4>
-                                                                                </div>
-                                                                            </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ch-counter-card">
+                        <div class="ch-counter-icon">
+                            <i class="fa-solid fa-ring"></i>
+                        </div>
+                        <h3><span class="ch-counter" data-count="5000">0</span>+</h3>
+                        <p>Exclusive Designs</p>
+                    </div>
+                </div>
 
-                                                                            <div class="col-lg-3 col-6">
-                                                                                <div class="ch-fr-counter-box">
-                                                                                    <h2><span class="counter">10</span>+</h2>
-                                                                                    <h4>Years Experience</h4>
-                                                                                </div>
-                                                                            </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ch-counter-card">
+                        <div class="ch-counter-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3><span class="ch-counter" data-count="10000">0</span>+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
 
-                                                                            <div class="col-lg-3 col-6">
-                                                                                <div class="ch-fr-counter-box">
-                                                                                    <h2><span class="counter">100</span>%</h2>
-                                                                                    <h4>Support</h4>
-                                                                                </div>
-                                                                            </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ch-counter-card">
+                        <div class="ch-counter-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3><span class="ch-counter" data-count="120">0</span>+</h3>
+                        <p>Luxury Collections</p>
+                    </div>
+                </div>
 
-                                                                        </div>
-                                                                    </div>
-                                                                </section> -->
+            </div>
+        </div>
+    </section>
 
-
-    <!-- <section class="ch-franchise-category-section">
-                                                                        <div class="container">
-                                                                            <div class="row g-4">
-
-                                                                                <div class="col-6 col-md-4 col-lg-3">
-                                                                                    <a href="#" class="ch-franchise-category-card">
-                                                                                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600" alt="Pizza">
-                                                                                        <h4>Pizza</h4>
-                                                                                    </a>
-                                                                                </div>
-
-                                                                                <div class="col-6 col-md-4 col-lg-3">
-                                                                                    <a href="#" class="ch-franchise-category-card">
-                                                                                        <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600" alt="Wraps">
-                                                                                        <h4>Wraps</h4>
-                                                                                    </a>
-                                                                                </div>
-
-                                                                                <div class="col-6 col-md-4 col-lg-3">
-                                                                                    <a href="#" class="ch-franchise-category-card">
-                                                                                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" alt="Burgers">
-                                                                                        <h4>Burgers</h4>
-                                                                                    </a>
-                                                                                </div>
-
-                                                                                <div class="col-6 col-md-4 col-lg-3">
-                                                                                    <a href="#" class="ch-franchise-category-card">
-                                                                                        <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600" alt="Refreshers">
-                                                                                        <h4>Refreshers</h4>
-                                                                                    </a>
-                                                                                </div>
-
-                                                                                <div class="col-6 col-md-4 col-lg-3">
-                                                                                    <a href="#" class="ch-franchise-category-card">
-                                                                                        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600" alt="Momos">
-                                                                                        <h4>Momos</h4>
-                                                                                    </a>
-                                                                                </div>
-
-                                                                                <div class="col-6 col-md-4 col-lg-3">
-                                                                                    <a href="#" class="ch-franchise-category-card">
-                                                                                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600" alt="Sandwiches">
-                                                                                        <h4>Sandwiches</h4>
-                                                                                    </a>
-                                                                                </div>
-
-                                                                                <div class="col-6 col-md-4 col-lg-3">
-                                                                                    <a href="#" class="ch-franchise-category-card">
-                                                                                        <img src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?w=600" alt="Pasta">
-                                                                                        <h4>Pasta</h4>
-                                                                                    </a>
-                                                                                </div>
-
-                                                                                <div class="col-6 col-md-4 col-lg-3">
-                                                                                    <a href="#" class="ch-franchise-category-card">
-                                                                                        <img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600" alt="Chai">
-                                                                                        <h4>Chai</h4>
-                                                                                    </a>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </section> -->
     @include('frontend.components.home.best-seller')
 
+   
+
     @include('frontend.components.home.what-we-do')
+     <section class="ch-history-section bg-section dark-section">
+        <div class="container">
+
+            <div class="section-title section-title-center mb-4">
+                <h3 class="wow fadeInUp"> Our Journey</h3>
+                <h2 class="text-anime-style-3" data-cursor="-opaque"> Our History
+                </h2>
+            </div>
+
+            <div class="ch-history-timeline">
+
+                <!-- Item -->
+                <div class="ch-history-item left">
+                    <div class="ch-history-year">2018</div>
+
+                    <div class="ch-history-card">
+                        <div class="ch-history-icon">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+
+                        <h4>The Beginning</h4>
+
+                        <p>
+                            Churi House started with a simple vision—to serve fresh,
+                            authentic chai with homemade flavors that bring people together.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="ch-history-item right">
+                    <div class="ch-history-year">2020</div>
+
+                    <div class="ch-history-card">
+                        <div class="ch-history-icon">
+                            <i class="fa-solid fa-mug-hot"></i>
+                        </div>
+
+                        <h4>Signature Chai</h4>
+
+                        <p>
+                            Introduced our signature chai menu and handcrafted snacks,
+                            quickly becoming a local favorite.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="ch-history-item left">
+                    <div class="ch-history-year">2022</div>
+
+                    <div class="ch-history-card">
+                        <div class="ch-history-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+
+                        <h4>Expanded Menu</h4>
+
+                        <p>
+                            Added café-style meals, desserts, and beverages while
+                            maintaining our commitment to quality ingredients.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="ch-history-item right">
+                    <div class="ch-history-year">2024</div>
+
+                    <div class="ch-history-card">
+                        <div class="ch-history-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <h4>Community Favourite</h4>
+
+                        <p>
+                            Thousands of happy guests have made Churi House their go-to
+                            place for conversations, celebrations, and unforgettable food.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 
     @include('frontend.components.home.testimonials')
 
@@ -226,7 +262,7 @@
 
                     <div class="ch-popup-btns">
 
-                      
+
                         <button class="btn ch-btn-primary" data-bs-dismiss="modal">
                             Continue
                         </button>
@@ -267,7 +303,7 @@
             });
 
         });
-        
+
     </script>
     <script>
         var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?86687';

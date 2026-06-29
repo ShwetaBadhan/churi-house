@@ -5,9 +5,12 @@
         <!-- Selfhosted Video Start -->
         <!-- <video autoplay muted loop id="myvideo"><source src="images/hero-bg-video.mp4" type="video/mp4"></video> -->
         <!-- <video autoplay muted loop id="myvideo">
-            <source src="{{ url('images/video.mp4') }}" type="video/mp4">
+            <source src="{{ url('images/upload/home-coffee.mp4') }}" type="video/mp4">
         </video> -->
-        <img src="{{ asset('images/upload/main-banner.jpeg') }}" >
+        <video autoplay muted loop id="myvideo">
+            <source src="{{ url('images/video.mp4') }}" type="video/mp4">
+        </video>
+        <!-- <img src="{{ asset('images/upload/main-banner.jpeg') }}" > -->
 
         <!-- Selfhosted Video End -->
 
@@ -22,19 +25,19 @@
                 <!-- Hero Content Start -->
                 <div class="hero-content">
                     <!-- Section Title Start -->
-                    <!-- <div class="section-title">
+                    <div class="section-title">
                         <h3 class="wow fadeInUp">Indulge in Authentic Flavours at Churi House </h3>
                         <h1 class="text-anime-style-3" data-cursor="-opaque">Churi House – Where Every Taste Meets
                             Tradition.
 
                         </h1>
-                    </div> -->
+                    </div>
                     <!-- Section Title End -->
 
                     <!-- Hero Button Start -->
-                    <!-- <div class="hero-btn wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="hero-btn wow fadeInUp" data-wow-delay="0.2s">
                         <a href="{{ route('contact-us') }}" class="btn-default btn-highlighted">Get Started</a>
-                    </div> -->
+                    </div>
                     <!-- Hero Button End -->
                 </div>
                 <!-- Hero Content End -->

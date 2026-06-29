@@ -9,12 +9,12 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">FRANCHISE </h1>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Franchise </h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home') }}">home</a></li>
 
-                                <li class="breadcrumb-item active" aria-current="page">Our Locations</li>
+                                <li class="breadcrumb-item active" aria-current="page">Take Franchise</li>
                             </ol>
                         </nav>
                     </div>
@@ -24,6 +24,64 @@
         </div>
     </div>
     <!-- Page Header End -->
+    <section class="chs-history-area  bg-section">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+
+
+                <div class="col-lg-6">
+
+                    <div class="chs-history-details">
+                        <div class="section-title section-title-center mb-4">
+                            <h3 class="wow fadeInUp"> Our Legacy</h3>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque"> Crafting Timeless Elegance Since 1999
+                            </h2>
+                        </div>
+
+
+                        <p class="chs-history-description">
+                            Churi House has been a trusted name in premium bangles and fashion jewellery for over two
+                            decades.
+                            Our journey began with a passion for preserving traditional craftsmanship while embracing modern
+                            elegance, creating collections that celebrate every occasion.
+                        </p>
+
+                        <p class="chs-history-description">
+                            Every design reflects our commitment to quality, beauty, and customer satisfaction. From
+                            handcrafted
+                            bridal collections to contemporary fashion accessories, we continue to create memorable
+                            experiences
+                            for generations of customers.
+                        </p>
+
+
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+
+                    <div class="chs-history-image-box">
+
+                        <img src="{{ asset('images/upload/home-a.jpg') }}" class="img-fluid chs-history-main-image"
+                            alt="Our History">
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- Page Contact Us Start -->
     <div class="page-contact-us bg-section light-section">
@@ -48,7 +106,7 @@
                     <div class="contact-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Grow with a brand people love.  </h2>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Grow with a brand people love. </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
                                 Interested in bringing the Seabud experience to your city? Connect with us to explore
                                 exciting franchise opportunities, business support, and the benefits of joining our growing
@@ -130,7 +188,8 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3 class="wow fadeInUp">EXPAND WITH US ACROSS INDIA</h3>
-                <h2 class="text-anime-style-3" data-cursor="-opaque">Be part of a growing brand that's bringing great food and memorable experiences. </h2>
+                <h2 class="text-anime-style-3" data-cursor="-opaque">Be part of a growing brand that's bringing great food
+                    and memorable experiences. </h2>
             </div>
 
 
