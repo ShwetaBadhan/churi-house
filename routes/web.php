@@ -26,7 +26,7 @@ Route::get('/our-menu', function () {
     return view('frontend.pages.our-menu');
 })->name('our-menu');
 
-Route::get('/our-gallery', function () {
+Route::get('/find-us', function () {
     return view('frontend.pages.our-gallery');
 })->name('our-gallery');
 

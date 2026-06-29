@@ -60,7 +60,7 @@
 
                             <li class="nav-item"><a class="nav-link" href="{{ route('our-menu') }}">Our Menu</a></li>
                             <!-- <li class="nav-item"><a class="nav-link" href="{{ route('locations') }}">Franchise </a></li> -->
-                            <li class="nav-item"><a class="nav-link" href="{{ route('our-gallery') }}">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('our-gallery') }}">Find Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ route('career') }}">Careers</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a>
                             </li>
