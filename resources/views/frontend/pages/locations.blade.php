@@ -24,7 +24,7 @@
         </div>
     </div>
     <!-- Page Header End -->
-    <section class="chs-history-area  bg-section">
+    <!-- <section class="chs-history-area  bg-section">
 
         <div class="container">
 
@@ -79,7 +79,7 @@
 
             </div>
 
-        </div>
+        </div> -->
 
     </section>
 

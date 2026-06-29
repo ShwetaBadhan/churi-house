@@ -24,5 +24,89 @@
     </div>
     <!-- Page Header End -->
 
-@include('frontend.components.home.gallery')
+   <section class="franchise-network bg-section">
+
+        <div class="container">
+            <div class="section-title text-center">
+                <h3 class="wow fadeInUp">EXPAND WITH US ACROSS INDIA</h3>
+                <h2 class="text-anime-style-3" data-cursor="-opaque">Be part of a growing brand that's bringing great food
+                    and memorable experiences. </h2>
+            </div>
+
+
+            <div class="franchise-wrapper">
+
+                <!-- Left -->
+                <div class="franchise-sidebar">
+
+                    <div class="state-item active" data-state="Punjab"
+                        data-locations="Chandigarh University, Sector 35C, Mohali Phase 3B2">
+
+                        <div class="state-header">
+                            <h4>Punjab</h4>
+                            <span>3 Locations</span>
+                        </div>
+
+                    </div>
+
+                    <div class="state-item" data-state="Haryana" data-locations="Gurugram, Faridabad">
+
+                        <div class="state-header">
+                            <h4>Haryana</h4>
+                            <span>2 Locations</span>
+                        </div>
+
+                    </div>
+
+                    <div class="state-item" data-state="Himachal" data-locations="Shimla">
+
+                        <div class="state-header">
+                            <h4>Himachal Pradesh</h4>
+                            <span>1 Location</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right -->
+                <div class="franchise-map-area">
+
+                    <div class="india-map">
+
+                        <div class="map-state punjab active-state">
+                            Punjab
+                        </div>
+
+                        <div class="map-state haryana">
+                            Haryana
+                        </div>
+
+                        <div class="map-state himachal">
+                            Himachal
+                        </div>
+
+                    </div>
+
+                    <div class="location-popup">
+
+                        <h3 id="stateName">Punjab</h3>
+
+                        <ul id="locationList">
+
+                            <li>Chandigarh University</li>
+                            <li>Sector 35C</li>
+                            <li>Mohali Phase 3B2</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 @endsection
