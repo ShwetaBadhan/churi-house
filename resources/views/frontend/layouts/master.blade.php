@@ -295,7 +295,7 @@
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'en',
-                includedLanguages: 'en,hi,fr,de,es,it,ja,ru,ar,zh-CN',
+                includedLanguages: 'en,hi,fr,de,',
                 autoDisplay: false
             }, 'google_translate_element');
         }

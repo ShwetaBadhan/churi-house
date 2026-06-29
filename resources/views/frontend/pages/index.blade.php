@@ -26,7 +26,7 @@
                         <div class="ch-counter-icon">
                             <i class="fa-solid fa-mug-hot"></i>
                         </div>
-                        <h3><span class="ch-counter" data-count="20">0</span>L+</h3>
+                        <h3><span class="ch-counter" data-count="10">0</span>L+</h3>
                         <p> Customers</p>
                     </div>
                 </div>

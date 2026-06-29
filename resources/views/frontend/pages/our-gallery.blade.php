@@ -2,14 +2,14 @@
 @section('title', 'Find Us')
 @section('content')
 
- <!-- Page Header Start -->
+    <!-- Page Header Start -->
     <div class="page-header parallaxie">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Find Us</h1>                        
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Find Us</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home') }}">home</a></li>
@@ -24,7 +24,66 @@
     </div>
     <!-- Page Header End -->
 
-   <section class="franchise-network bg-section">
+    <section class="chs-history-area  bg-section">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+
+
+                <div class="col-lg-6">
+
+                    <div class="chs-history-details">
+                        <div class="section-title section-title-center mb-4">
+                            <h3 class="wow fadeInUp"> Our Legacy</h3>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque"> Crafting Timeless Elegance Since 1999
+                            </h2>
+                        </div>
+
+
+                        <p class="chs-history-description">
+                            Churi House has been a trusted name in premium bangles and fashion jewellery for over two
+                            decades.
+                            Our journey began with a passion for preserving traditional craftsmanship while embracing modern
+                            elegance, creating collections that celebrate every occasion.
+                        </p>
+
+                        <p class="chs-history-description">
+                            Every design reflects our commitment to quality, beauty, and customer satisfaction. From
+                            handcrafted
+                            bridal collections to contemporary fashion accessories, we continue to create memorable
+                            experiences
+                            for generations of customers.
+                        </p>
+
+
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+
+                    <div class="chs-history-image-box">
+
+                        <img src="{{ asset('images/upload/home-a.jpg') }}" class="img-fluid chs-history-main-image"
+                            alt="Our History">
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="franchise-network bg-section">
 
         <div class="container">
             <div class="section-title text-center">

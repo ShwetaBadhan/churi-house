@@ -36,9 +36,9 @@
 
                     <!-- Hero Button Start -->
                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="{{ route('contact-us') }}" class="btn-default btn-highlighted">Get Started</a>
-                         <a href="{{ route('our-menu') }}" class="ch-special-btn btn-default mt-0 bg-white">
-                        View menu <i class="fa-solid fa-arrow-right"></i>
+                        <a href="{{ route('our-menu') }}" class="btn-default btn-highlighted">View Our Menu</a>
+                         <a href="{{ route('contact-us') }}" class="ch-special-btn btn-default mt-0 bg-white">
+                        Contact Us <i class="fa-solid fa-arrow-right"></i>
                     </a>
                     </div>
                     <!-- Hero Button End -->
@@ -55,7 +55,7 @@
 
                             <div class="col-6 col-md-3 p-0">
                                 <div class="ch-counter-item">
-                                    <h3><span class="ch-counter" data-count="20">0</span>L+</h3>
+                                    <h3><span class="ch-counter" data-count="10">0</span>L+</h3>
                                     <p> CUSTOMERS</p>
                                 </div>
                             </div>
