@@ -39,6 +39,7 @@
                     <ul>
                         <li><a href="{{ route('about-us') }}">About Us</a></li>
                         <li><a href="{{ route('locations') }}">Franchise</a></li>
+                        <li><a href="{{ route('locality') }}">Locations</a></li>
                         <li><a href="{{ route('our-menu') }}">Our Menu</a></li>
                         <li><a href="{{ route('our-gallery') }}">Gallery</a></li>
                         <li><a href="{{ route('contact-us') }}">Contact Us</a></li>

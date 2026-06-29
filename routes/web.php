@@ -48,6 +48,9 @@ Route::get('/reserve-a-table', function () {
 Route::get('/career', function () {
     return view('frontend.pages.career');
 })->name('career');
+Route::get('/locality', function () {
+    return view('frontend.pages.locality');
+})->name('locality');
 
 
 // form active 
