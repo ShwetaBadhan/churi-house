@@ -14,40 +14,40 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="ch-counter-card">
                         <div class="ch-counter-icon">
-                            <i class="fa-solid fa-gem"></i>
+                            <i class="fa-solid fa-store"></i>
                         </div>
-                        <h3><span class="ch-counter" data-count="25">0</span>+</h3>
-                        <p>Years of Craftsmanship</p>
+                        <h3><span class="ch-counter" data-count="170">0</span>+</h3>
+                        <p> Outlets</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="ch-counter-card">
                         <div class="ch-counter-icon">
-                            <i class="fa-solid fa-ring"></i>
+                            <i class="fa-solid fa-mug-hot"></i>
                         </div>
-                        <h3><span class="ch-counter" data-count="5000">0</span>+</h3>
-                        <p>Exclusive Designs</p>
+                        <h3><span class="ch-counter" data-count="20">0</span>L+</h3>
+                        <p> Customers</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="ch-counter-card">
                         <div class="ch-counter-icon">
-                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-city"></i>
                         </div>
-                        <h3><span class="ch-counter" data-count="10000">0</span>+</h3>
-                        <p>Happy Customers</p>
+                        <h3><span class="ch-counter" data-count="60">0</span>+</h3>
+                        <p>Cities Across India</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="ch-counter-card">
                         <div class="ch-counter-icon">
-                            <i class="fa-solid fa-award"></i>
+                            <i class="fa-solid fa-users"></i>
                         </div>
-                        <h3><span class="ch-counter" data-count="120">0</span>+</h3>
-                        <p>Luxury Collections</p>
+                        <h3><span class="ch-counter" data-count="1000">0</span>+</h3>
+                        <p>Dedicated Team Members</p>
                     </div>
                 </div>
 
@@ -57,10 +57,10 @@
 
     @include('frontend.components.home.best-seller')
 
-   
+
 
     @include('frontend.components.home.what-we-do')
-     <section class="ch-history-section bg-section dark-section">
+    <section class="ch-history-section bg-section dark-section">
         <div class="container">
 
             <div class="section-title section-title-center mb-4">
@@ -166,7 +166,7 @@
                 <!-- Left Menu -->
                 <div class="ch-specials-list">
 
-                    <div class="ch-specials-item active" data-title="Pizza"
+                    <div class="ch-specials-item " data-title="Pizza"
                         data-desc="Classic pizza topped with rich mozzarella cheese, fresh tomato sauce,and aromatic herbs."
                         data-img="{{ asset('images/upload/special/Pizza.jpg') }}">
                         <span>01</span>
@@ -187,7 +187,7 @@
                         French Toast
                     </div>
 
-                    <div class="ch-specials-item" data-title="Chai"
+                    <div class="ch-specials-item active" data-title="Chai"
                         data-desc="Aromatic, freshly brewed chai with rich flavors and comforting warmth."
                         data-img="{{ asset('images/upload/special/Chai.jpg') }}">
                         <span>04</span>
@@ -208,10 +208,10 @@
 
                     <span class="ch-special-tag">House Favorite</span>
 
-                    <h3 id="specialTitle">Pizza</h3>
+                    <h3 id="specialTitle">Chai</h3>
 
                     <p id="specialDesc">
-                        Classic pizza topped with rich mozzarella cheese, fresh tomato sauce,and aromatic herbs.
+                        Aromatic, freshly brewed chai with rich flavors and comforting warmth.
                     </p>
 
                     <a href="#" class="ch-special-btn">
@@ -222,7 +222,7 @@
 
                 <!-- Right Image -->
                 <div class="ch-specials-image">
-                    <img id="specialImage" src="{{ asset('images/upload/special/Pizza.jpg') }}" alt="">
+                    <img id="specialImage" src="{{ asset('images/upload/special/Chai.jpg') }}" alt="">
                 </div>
 
             </div>

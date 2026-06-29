@@ -25,78 +25,87 @@
     <!-- Page Header End -->
 
     @include('frontend.components.about.about-us')
-    @include('frontend.components.home.history')
-    <section class="ch-mv-section bg-section">
 
+    <section class="ch-history-section bg-section dark-section">
         <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title section-title-center">
-                        <h3 class="wow fadeInUp">Our Purpose</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Driven by Tradition, Inspired by Every Cup &
-                            Every Bite
-                        </h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
+
+            <div class="section-title section-title-center mb-4">
+                <h3 class="wow fadeInUp"> Our Journey</h3>
+                <h2 class="text-anime-style-3" data-cursor="-opaque"> Our History
+                </h2>
             </div>
-            
 
-            <div class="row g-4 mt-4">
+            <div class="ch-history-timeline">
 
-                <!-- Mission -->
-                <div class="col-lg-6">
-                    <div class="ch-mv-card">
-                        <div class="ch-mv-icon">
-                            <i class="fa-solid fa-bullseye"></i>
+                <!-- Item -->
+                <div class="ch-history-item left">
+                    <div class="ch-history-year">2018</div>
+
+                    <div class="ch-history-card">
+                        <div class="ch-history-icon">
+                            <i class="fa-solid fa-seedling"></i>
                         </div>
 
-                        <span class="ch-mv-label">Our Mission</span>
-
-                        <h4>Serving Authentic Taste with Passion</h4>
+                        <h4>The Beginning</h4>
 
                         <p>
-                            Our mission is to bring families and communities together
-                            through authentic Indian recipes prepared with premium
-                            ingredients, traditional methods, and exceptional service.
-                            Every meal is crafted to deliver warmth, freshness, and
-                            unforgettable flavors.
+                            Churi House started with a simple vision—to serve fresh,
+                            authentic chai with homemade flavors that bring people together.
                         </p>
-
-                        <ul class="ch-mv-list">
-                            <li>Fresh & premium ingredients</li>
-                            <li>Authentic traditional recipes</li>
-                            <li>Exceptional customer experience</li>
-                            <li>Consistency in taste & quality</li>
-                        </ul>
                     </div>
                 </div>
 
-                <!-- Vision -->
-                <div class="col-lg-6">
-                    <div class="ch-mv-card ch-mv-card-alt">
-                        <div class="ch-mv-icon">
-                           <i class="fa-solid fa-eye"></i>
+                <!-- Item -->
+                <div class="ch-history-item right">
+                    <div class="ch-history-year">2020</div>
+
+                    <div class="ch-history-card">
+                        <div class="ch-history-icon">
+                            <i class="fa-solid fa-mug-hot"></i>
                         </div>
 
-                        <span class="ch-mv-label">Our Vision</span>
-
-                        <h4>Creating a Global Home for Indian Flavours</h4>
+                        <h4>Signature Chai</h4>
 
                         <p>
-                            We envision Churi House becoming a trusted destination
-                            where people across the world experience the richness of
-                            Indian culinary traditions, creating meaningful moments
-                            over food that feels just like home.
+                            Introduced our signature chai menu and handcrafted snacks,
+                            quickly becoming a local favorite.
                         </p>
+                    </div>
+                </div>
 
-                        <ul class="ch-mv-list">
-                            <li>Expand globally with the same authenticity</li>
-                            <li>Celebrate Indian culinary heritage</li>
-                            <li>Innovate while respecting tradition</li>
-                            <li>Build lasting customer relationships</li>
-                        </ul>
+                <!-- Item -->
+                <div class="ch-history-item left">
+                    <div class="ch-history-year">2022</div>
+
+                    <div class="ch-history-card">
+                        <div class="ch-history-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+
+                        <h4>Expanded Menu</h4>
+
+                        <p>
+                            Added café-style meals, desserts, and beverages while
+                            maintaining our commitment to quality ingredients.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="ch-history-item right">
+                    <div class="ch-history-year">2024</div>
+
+                    <div class="ch-history-card">
+                        <div class="ch-history-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <h4>Community Favourite</h4>
+
+                        <p>
+                            Thousands of happy guests have made Churi House their go-to
+                            place for conversations, celebrations, and unforgettable food.
+                        </p>
                     </div>
                 </div>
 
@@ -104,5 +113,73 @@
 
         </div>
     </section>
+
+
+    <section class="ch-mv-section bg-section">
+        <div class="container">
+            <div class="section-title section-title-center mb-4">
+                <h3 class="wow fadeInUp">Our Purpose</h3>
+                <h2 class="text-anime-style-3" data-cursor="-opaque">
+                    Mission & Vision
+                </h2>
+            </div>
+            <div class="ch-mv-row">
+
+                <div class="ch-mv-image">
+                    <img src="{{ asset('images/upload/franchise.jpg') }}" alt="Our Mission">
+                </div>
+
+                <div class="ch-mv-content">
+                    <div class="ch-mv-icon">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+
+                    <span>Our Purpose</span>
+
+                    <h2>Serving Authentic Taste with Passion</h2>
+
+                    <p align="justify">
+                        Our mission is to bring families and communities together through authentic Indian
+                        recipes prepared with premium ingredients, traditional methods, and exceptional
+                        service. Every meal is crafted to deliver warmth, freshness, and unforgettable
+                        flavors.
+                    </p>
+
+                   
+                </div>
+
+            </div>
+
+
+            <div class="ch-mv-row ch-mv-reverse">
+
+                <div class="ch-mv-image">
+                    <img src="{{ asset('images/upload/home-a.jpg') }}" alt="Our Vision">
+                </div>
+
+                <div class="ch-mv-content">
+                    <div class="ch-mv-icon">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+
+                    <span>Our Future</span>
+
+                    <h2>Creating a Global Home for Indian Flavours</h2>
+
+                    <p align="justify">
+                        We envision Churi House becoming a trusted destination where people across the
+                        world experience the richness of Indian culinary traditions, creating meaningful
+                        moments over food that feels just like home.
+                    </p>
+
+                   
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
 
 @endsection

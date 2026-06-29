@@ -10,8 +10,14 @@
                         <ul>
                             <li class="has-pipe"><a href="tel:+919800003447"><img src="images/icon-phone-accent.svg"
                                         alt=""><span>Phone: </span>+91 9800003447</a></li>
-                            <li><a href="mailto:info@churihouse.com"><img src="images/icon-mail-accent.svg"
+                            <li class="has-pipe"><a href="mailto:info@churihouse.com"><img src="images/icon-mail-accent.svg"
                                         alt=""><span>Email: </span>info@churihouse.com</a></li>
+                            <li class=""><a href="javascript:void(0);"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="18"
+                                        height="18" viewBox="0 0 24 24" fill="none" stroke="#b62d39"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg> India | Canada </a></li>
                         </ul>
                     </div>
                     <!-- Topbar Contact Information End -->
@@ -77,7 +83,7 @@
 
                     <div class="header-btn">
 
-                        <a href="{{ route('locations') }}" class="btn-default">Take Franchise</a>
+                        <a href="{{ route('locations') }}" class="btn-default">Franchise Request</a>
                     </div>
                     <!-- Header Btn End -->
                 </div>

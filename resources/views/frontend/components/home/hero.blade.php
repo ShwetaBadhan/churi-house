@@ -20,8 +20,8 @@
     </div>
     <!-- Video End -->
     <div class="container">
-        <div class="row align-items-end">
-            <div class="col-lg-7">
+        <div class="row align-items-end d-flex justify-content-center">
+            <div class="col-lg-7 text-center">
                 <!-- Hero Content Start -->
                 <div class="hero-content">
                     <!-- Section Title Start -->
@@ -39,6 +39,40 @@
                         <a href="{{ route('contact-us') }}" class="btn-default btn-highlighted">Get Started</a>
                     </div>
                     <!-- Hero Button End -->
+
+                    <div class="counter-hero">
+                        <div class="row g-0 counter-box">
+
+                            <div class="col-6 col-md-3 p-0">
+                                <div class="ch-counter-item">
+                                    <h3><span class="ch-counter" data-count="170">0</span>+</h3>
+                                    <p> OUTLETS</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3 p-0">
+                                <div class="ch-counter-item">
+                                    <h3><span class="ch-counter" data-count="20">0</span>L+</h3>
+                                    <p> CUSTOMERS</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3 p-0">
+                                <div class="ch-counter-item">
+                                    <h3><span class="ch-counter" data-count="60">0</span>+</h3>
+                                    <p>CITIES SERVED</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3 p-0">
+                                <div class="ch-counter-item">
+                                    <h3><span class="ch-counter" data-count="1000">0</span>+</h3>
+                                    <p>TEAM MEMBERS</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 <!-- Hero Content End -->
             </div>
