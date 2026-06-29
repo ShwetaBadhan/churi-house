@@ -68,7 +68,7 @@
 
                 <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Adrak-Chai.jpg') }}" alt="">
@@ -80,7 +80,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Rose-Chai.jpg') }}" alt="">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Elaichi-Chai.jpg') }}" alt="">
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Kesar-Chai.jpg') }}" alt="">
@@ -116,7 +116,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Chcolate-chai.jpg') }}" alt="">
@@ -128,7 +128,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Pann-Chai.jpg') }}" alt="">
@@ -140,7 +140,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Gurh-Chai.jpg') }}" alt="">
@@ -152,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Masala-Chai.jpg') }}" alt="">
@@ -164,7 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Chai/Green-Tea.jpg') }}" alt="">
@@ -188,7 +188,7 @@
                 </div>
                 <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Milk/Kaadni-Milk.jpg') }}" alt="">
@@ -200,7 +200,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Milk/Elaichi-Kaadni-Milk.jpg') }}" alt="">
@@ -212,7 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Milk/Kesar-Kaadni-Milk.jpg') }}" alt="">
@@ -235,7 +235,7 @@
                 </div>
                 <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Churi.jpg') }}" alt="">
@@ -247,7 +247,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Churi-Dry-Fruit.jpg') }}" alt="">
@@ -259,7 +259,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Double-Shot-Churi.jpg') }}" alt="">
@@ -282,7 +282,7 @@
                 </div>
                 <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Cold-Coffee.jpg') }}" alt="">
@@ -293,7 +293,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Strong-Coffee.jpg') }}" alt="">
@@ -304,7 +304,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-Cold-Coffee.jpg') }}" alt="">
@@ -315,7 +315,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-with-Ice-Cream-Coffee.jpg') }}" alt="">
@@ -326,7 +326,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Caramel-Cold-Coffee.jpg') }}" alt="">
@@ -337,7 +337,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Brownie-Cold-Coffee.jpg') }}" alt="">
@@ -348,7 +348,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/CH-Spl.-Cold-Coffee.jpg') }}" alt="">
@@ -359,7 +359,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Hot-Coffee.jpg') }}" alt="">
@@ -370,7 +370,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Black-Coffee.jpg') }}" alt="">
@@ -381,7 +381,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Strong-Coffee.jpg') }}" alt="">
@@ -392,7 +392,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-Coffee.jpg') }}" alt="">
@@ -403,7 +403,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Vanilla-Coffee.jpg') }}" alt="">
@@ -414,7 +414,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Coffee/Caramel-Coffee.jpg') }}" alt="">
@@ -438,7 +438,7 @@
                 </div>
                 <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Vanilla-Shake.jpg') }}" alt="">
@@ -449,7 +449,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Strawberry-Shake.jpg') }}" alt="">
@@ -460,7 +460,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Butter-Scotch-Shake.jpg') }}" alt="">
@@ -471,7 +471,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Black-Current-Shake.jpg') }}" alt="">
@@ -482,7 +482,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Bubblegum-Shake.jpg') }}" alt="">
@@ -493,7 +493,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Kitkat-Shake.jpg') }}" alt="">
@@ -504,7 +504,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Oreo-Shake.jpg') }}" alt="">
@@ -515,7 +515,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Brownie-Shake.jpg') }}" alt="">
@@ -526,7 +526,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Belgian-Chocolate-Shake.jpg') }}" alt="">
@@ -537,7 +537,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Mix-Fruit-Shake.jpg') }}" alt="">
@@ -548,7 +548,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/American-Nuts-Shake.jpg') }}" alt="">
@@ -559,7 +559,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Shakes/Malai-Rabri-Shake.jpg') }}" alt="">
@@ -584,7 +584,7 @@
                 </div>
                 <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/') }}" alt="">
@@ -595,7 +595,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
@@ -606,7 +606,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
@@ -617,7 +617,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
@@ -628,7 +628,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
@@ -639,7 +639,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
@@ -650,7 +650,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
@@ -661,7 +661,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
@@ -672,7 +672,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
@@ -700,7 +700,7 @@
 
                 <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/Margherita-Pizza.jpg') }}" alt="">
@@ -712,7 +712,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/Cheese-Corn-Pizza.jpg') }}" alt="">
@@ -723,7 +723,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/Spicy-Treat-Pizza.jpg') }}" alt="">
@@ -734,7 +734,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/OTP-Pizza.jpg') }}" alt="">
@@ -745,7 +745,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/Farm-Fresh-Pizza.jpg') }}" alt="">
@@ -756,7 +756,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/Mushroom-Special-Pizza.jpg') }}" alt="">
@@ -767,7 +767,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/The-Green-Pizza.jpg') }}" alt="">
@@ -778,7 +778,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/Mexican-Spice-Pizza.jpg') }}" alt="">
@@ -789,7 +789,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/Makhani-Paneer-Pizza.jpg') }}" alt="">
@@ -800,7 +800,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="{{ asset('images/upload/menu-item/Pizza/Churi-House-Special-Pizza.jpg') }}" alt="">
@@ -824,7 +824,7 @@
                 </div>
                 <div class="row g-4">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
                                 <img src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?w=600" alt="">
