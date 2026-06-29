@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title', 'Our Gallery')
+@section('title', 'Find Us')
 @section('content')
 
  <!-- Page Header Start -->
