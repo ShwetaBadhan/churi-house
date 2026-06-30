@@ -231,7 +231,7 @@
     </section>
 
     <!-- Under Construction Modal -->
-    <div class="modal fade" id="underConstructionModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static"
+    <!-- <div class="modal fade" id="underConstructionModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static"
         data-bs-keyboard="false">
 
         <div class="modal-dialog modal-dialog-centered">
@@ -273,15 +273,15 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 @endsection
 @push('scripts')
-    <script>
+    <!-- <script>
         window.addEventListener('load', function () {
             const popup = new bootstrap.Modal(document.getElementById('underConstructionModal'));
             popup.show();
         });
-    </script>
+    </script> -->
     <script>
         const specials = document.querySelectorAll('.ch-specials-item');
 

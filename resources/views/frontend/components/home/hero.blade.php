@@ -8,7 +8,7 @@
             <source src="{{ url('images/upload/home-coffee.mp4') }}" type="video/mp4">
         </video> -->
         <video autoplay muted loop id="myvideo">
-            <source src="{{ url('images/video.mp4') }}" type="video/mp4">
+            <source src="{{ url('images/main_churi.mp4') }}" type="video/mp4">
         </video>
         <!-- <img src="{{ asset('images/upload/main-banner.jpeg') }}" > -->
 
