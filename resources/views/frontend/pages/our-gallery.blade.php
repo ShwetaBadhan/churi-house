@@ -36,25 +36,23 @@
 
                     <div class="chs-history-details">
                         <div class="section-title section-title-center mb-4">
-                            <h3 class="wow fadeInUp"> Our Legacy</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque"> Crafting Timeless Elegance Since 1999
+                            <h3 class="wow fadeInUp"> Find Us</h3>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque"> Serving Happiness Across Every Location
+
                             </h2>
                         </div>
 
 
                         <p class="chs-history-description">
-                            Churi House has been a trusted name in premium bangles and fashion jewellery for over two
-                            decades.
-                            Our journey began with a passion for preserving traditional craftsmanship while embracing modern
-                            elegance, creating collections that celebrate every occasion.
+                            With a growing network of Churi House outlets, we're bringing authentic flavors and memorable
+                            dining experiences closer to you. Find your nearest outlet and enjoy the perfect combination of
+                            great food, refreshing beverages, and exceptional service.
+
                         </p>
 
                         <p class="chs-history-description">
-                            Every design reflects our commitment to quality, beauty, and customer satisfaction. From
-                            handcrafted
-                            bridal collections to contemporary fashion accessories, we continue to create memorable
-                            experiences
-                            for generations of customers.
+                            <b>We look forward to welcoming you soon!
+                            </b>
                         </p>
 
 

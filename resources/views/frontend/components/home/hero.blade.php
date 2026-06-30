@@ -37,9 +37,9 @@
                     <!-- Hero Button Start -->
                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.2s">
                         <a href="{{ route('our-menu') }}" class="btn-default btn-highlighted">View Our Menu</a>
-                         <a href="{{ route('contact-us') }}" class="ch-special-btn btn-default mt-0 bg-white">
-                        Contact Us <i class="fa-solid fa-arrow-right"></i>
-                    </a>
+                        <a href="{{ route('contact-us') }}" class="ch-special-btn btn-default mt-0 bg-white">
+                            Contact Us <i class="fa-solid fa-arrow-right"></i>
+                        </a>
                     </div>
                     <!-- Hero Button End -->
 
@@ -48,29 +48,30 @@
 
                             <div class="col-6 col-md-3 p-0">
                                 <div class="ch-counter-item">
-                                    <h3><span class="ch-counter" data-count="170">0</span>+</h3>
-                                    <p> OUTLETS</p>
+                                    <h3><span class="ch-counter" data-count="50">0</span>+</h3>
+                                    <p> Signature Recipes</p>
                                 </div>
                             </div>
 
                             <div class="col-6 col-md-3 p-0">
                                 <div class="ch-counter-item">
-                                    <h3><span class="ch-counter" data-count="10">0</span>L+</h3>
-                                    <p> CUSTOMERS</p>
+                                    <h3><span class="ch-counter" data-count="20">0</span>K+</h3>
+                                    <p> Satisfied Guests</p>
                                 </div>
                             </div>
 
                             <div class="col-6 col-md-3 p-0">
                                 <div class="ch-counter-item">
-                                    <h3><span class="ch-counter" data-count="60">0</span>+</h3>
-                                    <p>CITIES SERVED</p>
+                                    <h3><span class="ch-counter" data-count="100">0</span>+</h3>
+                                    <p>Team Members</p>
                                 </div>
                             </div>
 
                             <div class="col-6 col-md-3 p-0">
                                 <div class="ch-counter-item">
-                                    <h3><span class="ch-counter" data-count="1000">0</span>+</h3>
-                                    <p>TEAM MEMBERS</p>
+                                    <h3><span class="ch-counter" data-count="15">0</span>+</h3>
+                                    <p>Growing Outlets
+                                    </p>
                                 </div>
                             </div>
 
