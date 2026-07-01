@@ -48,29 +48,29 @@
 
                             <div class="col-6 col-md-3 p-0">
                                 <div class="ch-counter-item">
+                                    <h3><span class="ch-counter" data-count="120">0</span>+</h3>
+                                    <p> Outlets</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3 p-0">
+                                <div class="ch-counter-item">
+                                    <h3><span class="ch-counter" data-count="1200">0</span>+</h3>
+                                    <p> Employees</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3 p-0">
+                                <div class="ch-counter-item">
+                                    <h3><span class="ch-counter" data-count="15">0</span>L+</h3>
+                                    <p>Customers</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3 p-0">
+                                <div class="ch-counter-item">
                                     <h3><span class="ch-counter" data-count="50">0</span>+</h3>
-                                    <p> Signature Recipes</p>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-md-3 p-0">
-                                <div class="ch-counter-item">
-                                    <h3><span class="ch-counter" data-count="20">0</span>K+</h3>
-                                    <p> Satisfied Guests</p>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-md-3 p-0">
-                                <div class="ch-counter-item">
-                                    <h3><span class="ch-counter" data-count="100">0</span>+</h3>
-                                    <p>Team Members</p>
-                                </div>
-                            </div>
-
-                            <div class="col-6 col-md-3 p-0">
-                                <div class="ch-counter-item">
-                                    <h3><span class="ch-counter" data-count="15">0</span>+</h3>
-                                    <p>Growing Outlets
+                                    <p>Cities
                                     </p>
                                 </div>
                             </div>
