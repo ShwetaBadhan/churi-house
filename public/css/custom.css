@@ -7824,3 +7824,7 @@ header.main-header .header-sticky.active {
         height:320px;
     }
 }
+.flag{
+    width: 30px;
+    object-fit: cover;
+}

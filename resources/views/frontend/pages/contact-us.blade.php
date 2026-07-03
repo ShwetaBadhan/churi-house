@@ -37,16 +37,7 @@
                             </figure>
                         </div>
 
-                        <!-- Opening Hours Item Start -->
-                        <div class="opening-hours-item wow fadeInUp">
-                            <h3>Opening Hour:</h3>
-                            <ul>
-                                <li>Mon - Fri : 09AM to 08PM</li>
-                                <li>Saturday : 11AM to 06PM</li>
-                                <li>Sunday : Closed</li>
-                            </ul>
-                        </div>
-                        <!-- Opening Hours Item End -->
+                       
                     </div>
                     <!-- Contact Us Image End -->
                 </div>
