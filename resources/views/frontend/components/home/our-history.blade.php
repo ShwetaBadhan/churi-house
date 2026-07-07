@@ -11,7 +11,7 @@
 
                 <!-- Item -->
                 <div class="ch-history-item left">
-                    <div class="ch-history-year">2019</div>
+                    <div class="ch-history-year">2023</div>
 
                     <div class="ch-history-card">
                         <div class="ch-history-icon">
@@ -30,7 +30,7 @@
 
                 <!-- Item -->
                 <div class="ch-history-item right">
-                    <div class="ch-history-year">2022</div>
+                    <div class="ch-history-year">2024</div>
 
                     <div class="ch-history-card">
                         <div class="ch-history-icon">
@@ -49,7 +49,7 @@
 
                 <!-- Item -->
                 <div class="ch-history-item left">
-                    <div class="ch-history-year">2024</div>
+                    <div class="ch-history-year">2025</div>
 
                     <div class="ch-history-card">
                         <div class="ch-history-icon">
@@ -69,7 +69,7 @@
 
                 <!-- Item -->
                 <div class="ch-history-item right">
-                    <div class="ch-history-year">Today</div>
+                    <div class="ch-history-year">2026</div>
 
                     <div class="ch-history-card">
                         <div class="ch-history-icon">

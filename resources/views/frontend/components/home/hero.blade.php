@@ -27,7 +27,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">Indulge in Authentic Flavours at Churi House </h3>
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Churi House – Where Every Taste Meets
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Churi House –  Zaika Chai Ka Taste Meets
                             Tradition.
 
                         </h1>
