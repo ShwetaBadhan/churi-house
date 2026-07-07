@@ -62,7 +62,7 @@
                         <!-- Footer Contact Item Start -->
                         <div class="footer-contact-item">
                             <h3>Get In Touch</h3>
-                            <p><a href="mailto:churihouse3b2@gmail.com">churihouse3b2@gmail.com</a></p>
+                            <p><a href="mailto:info@churihouse.com">info@churihouse.com</a></p>
                             <p><a href="tel:+919800003447">+91 9800003447</a></p>
                         </div>
                         <!-- Footer Contact Item End -->
