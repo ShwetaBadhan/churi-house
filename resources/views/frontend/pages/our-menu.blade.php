@@ -1,5 +1,7 @@
 @extends('frontend.layouts.master')
-@section('title', 'Our Menu')
+@section('title', 'Our Menu | Chai, Churi, Pizza & Shakes – Churi House')
+@section('meta_description', 'Explore Churi House\'s full menu — adrak chai, desi ghee churi, wood-fired pizzas, cold coffee, shakes & mojitos. Order your favourites today!')
+@section('meta_keywords', 'churi house menu, chai menu mohali, churi menu, pizza menu mohali, cold coffee shakes, best chai menu in india	')
 @section('content')
 
 

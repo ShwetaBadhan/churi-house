@@ -1,5 +1,8 @@
 @extends('frontend.layouts.master')
-@section('title', 'Career')
+@section('title', 'Careers at Churi House | Join Our Growing Team')
+@section('meta_description', 'Explore exciting career opportunities at Churi House. We\'re hiring Restaurant Managers, Chefs & Baristas across Punjab. Apply now!')
+@section('meta_keywords', 'churi house careers, jobs at churi house mohali, restaurant jobs punjab, cafe jobs in india	')
+
 @section('content')
 
     <!-- Page Header Start -->

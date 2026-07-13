@@ -1,5 +1,8 @@
 @extends('frontend.layouts.master')
-@section('title', 'Our Franchise')
+@section('title', 'Franchise Opportunities | Own a Churi House Outlet')
+@section('meta_description', 'Bring Churi House to your city! Explore franchise opportunities, business support & benefits of joining our growing brand family.')
+@section('meta_keywords', 'churi house franchise in mohali, cafe franchise opportunities in india, food franchise punjab, own a cafe franchise')
+
 @section('content')
 
     <!-- Page Header Start -->

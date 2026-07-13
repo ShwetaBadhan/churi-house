@@ -1,5 +1,8 @@
 @extends('frontend.layouts.master')
-@section('title', 'Terms and Conditions')
+@section('title', 'Terms & Conditions | Churi House	')
+@section('meta_description', 'Review Churi House\'s terms & conditions for using our website, ordering, career applications & franchise enquiries.')
+@section('meta_keywords', 'churi house terms and conditions, churi house mohali, churi house india terms of use')
+
 @section('content')
 
     <!-- Page Header Start -->

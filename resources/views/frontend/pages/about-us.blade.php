@@ -1,5 +1,7 @@
 @extends('frontend.layouts.master')
-@section('title', 'About Us')
+@section('title', 'Churi House – Authentic Chai & Churi Café in Mohali')
+@section('meta_description', 'Churi House brings authentic Indian chai, desi ghee churi, pizzas & wraps to Mohali, Punjab. Visit us for a taste of tradition & comfort food.')
+@section('meta_keywords', 'churi house, desi ghee churi, chai cafe punjab, indian street food mohali, churi house mohali, best chai cafe in india')
 @section('content')
 
     <!-- Page Header Start -->

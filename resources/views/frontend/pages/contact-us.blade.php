@@ -1,5 +1,8 @@
 @extends('frontend.layouts.master')
-@section('title', 'Contact Us')
+@section('title', 'Contact Us | Churi House Mohali, Punjab')
+@section('meta_description', 'Get in touch with Churi House head office in Mohali, Punjab. Call, email or visit us for queries, feedback & franchise info.')
+@section('meta_keywords', 'contact churi house mohali, churi house head office punjab, churi house india contact, churi house phone number')
+
 @section('content')
 
     <!-- Page Header Start -->

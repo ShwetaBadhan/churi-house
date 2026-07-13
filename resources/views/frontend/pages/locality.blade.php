@@ -1,5 +1,8 @@
 @extends('frontend.layouts.master')
-@section('title', 'Locations')
+@section('title', 'All Locations | Churi House Outlets Across India')
+@section('meta_description', 'Browse all Churi House locations across India. Find the outlet nearest to you and enjoy authentic chai, churi, pizza & more.')
+@section('meta_keywords', 'churi house all locations, churi house branches in mohali, churi house outlets across india')
+
 @section('content')
 
     <!-- Page Header Start -->

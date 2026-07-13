@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/download/8ea8275e5-5e95327dd/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://www.churihouse.com/</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/about-us</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/our-menu</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/find-us</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/career</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/contact-us</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/locations</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/locality</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/privacy-policy</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.churihouse.com/terms-conditions</loc>
+       <lastmod>2026-07-13T11:22:43+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+</urlset>

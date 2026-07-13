@@ -1,5 +1,7 @@
 @extends('frontend.layouts.master')
-@section('title', 'Find Us')
+@section('title', 'Find Us | Churi House Outlets Near You')
+@section('meta_description', 'Locate your nearest Churi House outlet across Punjab, Haryana & Himachal Pradesh. Enjoy authentic chai & churi at a location close to you.')
+@section('meta_keywords', 'churi house near me, churi house outlets in mohali, find churi house in india, churi house locations punjab')
 @section('content')
 
     <!-- Page Header Start -->

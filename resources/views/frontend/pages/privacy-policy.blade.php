@@ -1,5 +1,8 @@
 @extends('frontend.layouts.master')
-@section('title', 'Privacy Policy')
+@section('title', 'Privacy Policy | Churi House')
+@section('meta_description', 'Read Churi House\'s privacy policy to know how we collect, use & protect your personal information when you visit our website.')
+@section('meta_keywords', 'churi house privacy policy, churi house mohali, data protection churi house india')
+
 @section('content')
 
     <!-- Page Header Start -->

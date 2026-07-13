@@ -1,5 +1,7 @@
 @extends('frontend.layouts.master')
-@section('title', 'Welcome to Churi House')
+@section('title', 'About Us | Churi House – Our Story & Mission')
+@section('meta_description', 'Discover Churi House's journey since 2023 — our mission to serve authentic Indian flavours with premium ingredients & warm hospitality in Punjab.')
+@section('meta_keywords', 'about churi house, churi house story, best indian cafe in mohali, indian cafe brand in india	')
 @section('content')
 
     @include('frontend.components.home.hero')
@@ -12,60 +14,60 @@
     @include('frontend.components.home.our-specials')
 
 
-    
+
 
     <!-- Under Construction Modal -->
     <!-- <div class="modal fade" id="underConstructionModal" tabindex="-1" aria-hidden="true" data-bs-backdrop="static"
-                                data-bs-keyboard="false">
+                                    data-bs-keyboard="false">
 
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content ch-popup">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content ch-popup">
 
-                                        <button type="button" class="btn-close ch-popup-close" data-bs-dismiss="modal"></button>
+                                            <button type="button" class="btn-close ch-popup-close" data-bs-dismiss="modal"></button>
 
-                                        <div class="modal-body text-center">
+                                            <div class="modal-body text-center">
 
-                                            <div class="ch-popup-icon">
-                                                <img src="{{ asset('images/logo/logo.png') }}">
-                                            </div>
+                                                <div class="ch-popup-icon">
+                                                    <img src="{{ asset('images/logo/logo.png') }}">
+                                                </div>
 
-                                            <span class="ch-popup-badge">
-                                                🚧 Coming Soon
-                                            </span>
+                                                <span class="ch-popup-badge">
+                                                    🚧 Coming Soon
+                                                </span>
 
-                                            <h3>
-                                                We're Brewing Something
-                                                <span>Special</span>
-                                            </h3>
+                                                <h3>
+                                                    We're Brewing Something
+                                                    <span>Special</span>
+                                                </h3>
 
-                                            <p>
-                                                Churi House is currently enhancing your experience.
-                                                Some sections of our website are still under construction
-                                                and will be available very soon.
-                                            </p>
+                                                <p>
+                                                    Churi House is currently enhancing your experience.
+                                                    Some sections of our website are still under construction
+                                                    and will be available very soon.
+                                                </p>
 
-                                            <div class="ch-popup-btns">
+                                                <div class="ch-popup-btns">
 
 
-                                                <button class="btn ch-btn-primary" data-bs-dismiss="modal">
-                                                    Continue
-                                                </button>
+                                                    <button class="btn ch-btn-primary" data-bs-dismiss="modal">
+                                                        Continue
+                                                    </button>
+
+                                                </div>
 
                                             </div>
 
                                         </div>
-
                                     </div>
-                                </div>
-                            </div> -->
+                                </div> -->
 @endsection
 @push('scripts')
     <!-- <script>
-                                window.addEventListener('load', function () {
-                                    const popup = new bootstrap.Modal(document.getElementById('underConstructionModal'));
-                                    popup.show();
-                                });
-                            </script> -->
+                                    window.addEventListener('load', function () {
+                                        const popup = new bootstrap.Modal(document.getElementById('underConstructionModal'));
+                                        popup.show();
+                                    });
+                                </script> -->
     <script>
         const specials = document.querySelectorAll('.ch-specials-item');
 
