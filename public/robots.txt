@@ -1,2 +1,6 @@
 User-agent: *
-Disallow:
+Disallow: /privacy-policy/
+Disallow: /cgi-bin/
+Allow: /
+
+Sitemap: https://churihouse.com/sitemap.xml
