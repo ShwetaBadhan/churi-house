@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title', 'About Us | Churi House – Our Story & Mission')
+@section('title', 'Churi House – Authentic Chai & Churi Café in Mohali ')
 @section('meta_description', 'Discover Churi House\'s journey since 2023 — our mission to serve authentic Indian flavours with premium ingredients & warm hospitality in Punjab.')
 @section('meta_keywords', 'about churi house, churi house story, best indian cafe in mohali, indian cafe brand in india	')
 @section('content')

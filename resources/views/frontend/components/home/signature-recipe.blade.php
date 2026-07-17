@@ -29,7 +29,7 @@
                     <div class="ch-counter-icon">
                         <i class="fa-solid fa-users"></i>
                     </div>
-                    <h3><span class="ch-counter" data-count="15">0</span>+</h3>
+                    <h3><span class="ch-counter" data-count="15">0</span>L+</h3>
                     <p>Customers</p>
                 </div>
             </div>

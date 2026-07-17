@@ -63,7 +63,8 @@
                             <div class="col-6 col-md-3 p-0">
                                 <div class="ch-counter-item">
                                     <h3><span class="ch-counter" data-count="15">0</span>L+</h3>
-                                    <p>Customers</p>
+                                   <p class="customers-text">Customers</p>
+                                  
                                 </div>
                             </div>
 

@@ -7059,6 +7059,7 @@ header.main-header .header-sticky.active {
 .ch-language-icon {
     width: 42px;
     height: 42px;
+    margin-right: 10px;
     border-radius: 50%;
     background: #7a4b2c;
     color: #fff;
@@ -7827,4 +7828,13 @@ header.main-header .header-sticky.active {
 .flag{
     width: 30px;
     object-fit: cover;
+}
+.customers-text {
+    padding-right: 0;
+}
+
+@media (min-width: 786px) {
+    .customers-text {
+        padding-right: 45px;
+    }
 }

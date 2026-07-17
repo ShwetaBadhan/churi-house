@@ -5,58 +5,77 @@
 
                 <!-- Post Single Content Start -->
                 <div class="post-content">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Terms & Conditions</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Terms & Conditions
+                        </h2>
+                    </div>
                     <!-- Post Entry Start -->
                     <div class="post-entry">
                         <p class="wow fadeInUp">
-                            Welcome to Seabud. By accessing and using our website, services, and facilities, you agree
-                            to comply with and be bound by the following Terms and Conditions. Please read them
-                            carefully before using our website or making any reservations, purchases, or inquiries.
+                            Welcome to Churi House. By accessing our website, exploring our services, or visiting our
+                            facilities, you agree to these Terms & Conditions. We encourage you to read them to better
+                            understand how we aim to create a seamless experience for every guest.
+
+
+
                         </p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            These Terms and Conditions govern your use of our website and services. If you do not agree
-                            with any part of these terms, please refrain from using our website. Seabud reserves the
-                            right to modify, update, or revise these terms at any time without prior notice.
+                            These Terms & Conditions are designed to ensure transparency, trust, and a welcoming
+                            experience for everyone who interacts with Churi House. As our services continue to evolve,
+                            these Terms & Conditions may be updated from time to time to reflect new offerings,
+                            improvements, or applicable legal requirements. Any updates will become effective once
+                            published on this website, and your continued use of our website signifies your acceptance
+                            of the latest version.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            By using our website, you acknowledge that you have read, understood, and accepted these
+                            Terms & Conditions and agree to use the website in accordance with applicable laws and
+                            regulations. We also appreciate you keeping any information shared with us, such as
+                            enquiries, contact details, or feedback, accurate and up to date, helping us serve you
+                            better.
                         </p>
 
                         <blockquote class="wow fadeInUp" data-wow-delay="0.4s">
                             <p>
-                                By continuing to access or use our website, you acknowledge that you have read,
-                                understood, and agreed to be bound by these Terms and Conditions and all applicable laws
-                                and regulations.
+                                We kindly invite you to take a moment to review these Terms & Conditions. By continuing
+                                to use our website, you are graciously accepting these terms, helping us provide a safe,
+                                secure, and enjoyable experience for every valued guest.
                             </p>
                         </blockquote>
 
-                        <p class="wow fadeInUp" data-wow-delay="0.6s">
-                            Users are responsible for ensuring that any information provided through the website is
-                            accurate, complete, and up to date. Any misuse of the website, including unauthorized
-                            access, fraudulent activity, or interference with website functionality, is strictly
-                            prohibited.
-                        </p>
 
-                        <h2 class="wow fadeInUp" data-wow-delay="0.8s">User Responsibilities</h2>
+
+                        <h2 class="wow fadeInUp" data-wow-delay="0.8s">A Few Gentle Requests</h2>
 
                         <p class="wow fadeInUp" data-wow-delay="1s">
-                            To maintain a safe and enjoyable experience for all visitors, users agree to follow the
-                            guidelines outlined below when using our website and services.
+                            To help us create the best possible experience for everyone, we kindly request that you:
                         </p>
 
                         <ul class="wow fadeInUp" data-wow-delay="1.2s">
-                            <li>Provide accurate and truthful information when making reservations or inquiries.</li>
-                            <li>Use the website only for lawful purposes and in compliance with applicable laws.</li>
-                            <li>Respect the intellectual property rights, trademarks, and content displayed on the
-                                website.</li>
-                            <li>Refrain from attempting to disrupt, damage, or gain unauthorized access to our systems.
-                            </li>
-                            <li>Accept responsibility for any activities conducted through your submitted information.
-                            </li>
+
+                            <li>Provide accurate and up-to-date information when submitting forms or enquiries.</li>
+                            <li>Use our website for genuine enquiries and interactions.</li>
+                            <li>Respect the intellectual property of Churi House, including our content, images, logos,
+                                trademarks, and other creative materials.</li>
+                            <li>Help us maintain a secure and reliable online experience by using our website
+                                responsibly.</li>
+                            <li>Share or reference our website content only with appropriate authorization where
+                                required.</li>
+                            <li>Ensure that any information, feedback, or content you submit is truthful, respectful,
+                                and constructive.</li>
+
                         </ul>
 
                         <p class="wow fadeInUp" data-wow-delay="1.4s">
-                            Seabud reserves the right to refuse service, cancel reservations, restrict access, or take
-                            appropriate legal action if any user violates these Terms and Conditions. Your continued use
-                            of our website signifies your acceptance of any future updates or modifications to these
-                            terms.
+                            Your support helps us maintain a welcoming, secure, and enjoyable experience for our entire
+                            community. We truly appreciate your cooperation and thank you for being a valued part of the
+                            Churi House family.
+                            <br>
+                            Thank you for choosing Churi House. We look forward to welcoming you and sharing our passion
+                            for authentic flavours and exceptional hospitality.
+
                         </p>
                     </div>
                     <!-- Post Entry End -->
@@ -72,10 +91,11 @@
                                 <!-- Post Social Links Start -->
                                 <div class="post-social-sharing wow fadeInUp" data-wow-delay="0.5s">
                                     <ul>
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                        <li><a href="https://www.facebook.com/churihouseindia" target="_blank"><i
+                                                    class="fa-brands fa-facebook-f"></i></a></li>
+
+                                        <li><a href="https://www.instagram.com/churihouseindia/" target="_blank"><i
+                                                    class="fa-brands fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                                 <!-- Post Social Links End -->

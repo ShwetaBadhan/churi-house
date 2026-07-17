@@ -76,7 +76,7 @@
                 <!-- Footer Links start -->
                 <div class="footer-links">
                     <h3>Subscribe Newsletter</h3>
-                    <p>Subscribe our newsletter to get more updates.!</p>
+                   
                     <!-- Footer NewsLetter Form Start -->
                     <div class="footer-newsletter-form">
                         <form id="newsletterForm" action="{{ route('subscribe.store') }}" method="POST">

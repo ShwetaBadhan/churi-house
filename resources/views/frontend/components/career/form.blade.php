@@ -108,7 +108,7 @@
                         <div class="reserve-table-info-item">
                             <h3>Recruitment Contact</h3>
                             <p>Email: <a href="mailto:careers@churihouse.com">careers@churihouse.com</a></p>
-                            <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+                            <p>Phone: <a href="tel:+919800003447">+91 9800003447</a></p>
                         </div>
                         <!-- Career Info Item End -->
 
