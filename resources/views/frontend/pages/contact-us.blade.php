@@ -64,27 +64,27 @@
                                 <div class="row">
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="text" name="name" class="form-control" id="fname"
-                                            placeholder="First name" required>
+                                            placeholder="First name*" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
 
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email*"
                                             required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone"
+                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone*"
                                             pattern="[0-9]{10}" maxlength="10"
                                             title="Please enter a valid 10-digit phone number" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="text" name="subject" class="form-control" id="subject"
-                                            placeholder="Subject" required>
+                                            placeholder="Subject*" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 

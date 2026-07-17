@@ -69,39 +69,39 @@
                                 <div class="row">
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="text" name="name" class="form-control" id="fname"
-                                            placeholder="First name" required>
+                                            placeholder="First name*" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
 
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email*"
                                             required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone"
+                                        <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone*"
                                             pattern="[0-9]{10}" maxlength="10"
                                             title="Please enter a valid 10-digit phone number" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="text" name="location" class="form-control" id="subject"
-                                            placeholder="Area Where You Want Outlet ?" required>
+                                            placeholder="Area Where You Want Outlet ?*" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group  mb-4">
                                         <input type="text" name="address" class="form-control" id="subject"
-                                            placeholder="Address" required>
+                                            placeholder="Address*" required>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
 
                                     <div class="form-group mb-4">
                                         <select class="form-control" name="type" required>
-                                            <option value="" selected disabled>Select Preferred Type</option>
+                                            <option value="" selected disabled>Select Preferred Type*</option>
                                             <option value="Take Always">Take Always</option>
                                             <option value="Dining">Dining</option>
                                             <option value="Other">Other</option>
