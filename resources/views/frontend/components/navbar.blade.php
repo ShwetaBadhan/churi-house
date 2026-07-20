@@ -8,12 +8,12 @@
                     <!-- Topbar Contact Information Start -->
                     <div class="topbar-contact-info">
                         <ul>
-                            <li class="has-pipe"><a href="tel:+919800003447"><img src="images/icon-phone-accent.svg"
+                            <li class="has-pipe-lg has-pipe-md"><a href="tel:+919800003447"><img src="images/icon-phone-accent.svg"
                                         alt=""><span>Phone: </span>+91 9800003447</a></li>
-                            <li class="has-pipe"><a href="mailto:info@churihouse.com"><img
+                            <li class="has-pipe-lg"><a href="mailto:info@churihouse.com"><img
                                         src="images/icon-mail-accent.svg" alt=""><span>Email:
                                     </span>info@churihouse.com</a></li>
-                            <li class=""><a href="javascript:void(0);">
+                            <li class="d-none d-md-block"><a href="javascript:void(0);">
                                 
                                     </svg><img src="{{ asset('images/upload/india.jpg') }}" class="flag "> India  | <img src="{{ asset('images/upload/canada.jpg') }}" class="flag ms-2"> Canada </a></li>
                         </ul>
@@ -65,7 +65,7 @@
                             {{-- <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> --}}
 
                             <li class="nav-item highlighted-menu"><a class="nav-link"
-                                    href="{{ route('contact-us') }}">Contact Us</a></li>
+                                    href="{{ route('locations') }}">Franchise Request</a></li>
                         </ul>
                     </div>
                     <div class="ch-language">

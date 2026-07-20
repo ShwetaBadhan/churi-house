@@ -9,7 +9,7 @@
                     <div class="ch-counter-icon">
                         <i class="fa-solid fa-store"></i>
                     </div>
-                    <h3><span class="ch-counter" data-count="120">0</span>+</h3>
+                    <h3><span class="ch-counter" data-count="70">0</span>+</h3>
                     <p>Outlets</p>
                 </div>
             </div>

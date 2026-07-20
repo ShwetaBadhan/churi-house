@@ -32,7 +32,12 @@
                     <i class="fa-solid fa-mug-saucer"></i> Coffee
                 </button>
             </li>
-
+            <!-- roll -->
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#roti-roll">
+                    <i class="fa-solid fa-wheat-awn"></i> Roti Roll
+                </button>
+            </li>
             <!-- Shakes -->
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#shakes">
@@ -46,13 +51,81 @@
                     <i class="fa-solid fa-glass-water"></i> Mojito
                 </button>
             </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#icecream">
+                    <i class="fa-solid fa-ice-cream"></i> Ice Cream
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#fries">
+                    <i class="fa-solid fa-bowl-food"></i> Fries & Nuggets
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#garlicbread">
+                    <i class="fa-solid fa-bread-slice"></i> Garlic Breads
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#maggie">
+                    <i class="fa-solid fa-bowl-food"></i> Maggie
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pasta">
+                    <i class="fa-solid fa-bowl-food"></i> Pasta
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#gymsalads">
+                    <i class="fa-solid fa-bowl-rice"></i> Gym Salads & Bowls
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#breakfast">
+                    <i class="fa-solid fa-utensils"></i> Breakfast & Snacks
+                </button>
+            </li>
 
             <!-- Pizza -->
             <li class="nav-item">
                 <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pizza">
                     <i class="fa-solid fa-pizza-slice"></i> Pizza
                 </button>
+
             </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#subs">
+                    <i class="fa-solid fa-hotdog"></i> Subs
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#buns">
+                    <i class="fa-solid fa-bread-slice"></i> Buns
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#sandwich">
+                    <i class="fa-solid fa-bread-slice"></i> Sandwich
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#burger">
+                    <i class="fa-solid fa-burger"></i> Burgers
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#lassi">
+                    <i class="fa-solid fa-glass-water"></i> Lassi
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#brownie">
+                    <i class="fa-solid fa-cookie-bite"></i> Brownie
+                </button>
+            </li>
+
 
         </ul>
 
@@ -250,7 +323,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Churi-Dry-Fruit.jpg') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Churi-Dry-Fruit.jpg') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -262,7 +336,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Double-Shot-Churi.jpg') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Churi/Desi-Ghee-Double-Shot-Churi.jpg') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -307,7 +382,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-Cold-Coffee.jpg') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-Cold-Coffee.jpg') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -318,7 +394,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-with-Ice-Cream-Coffee.jpg') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Coffee/Chocolate-with-Ice-Cream-Coffee.jpg') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -430,7 +507,76 @@
 
                 </div>
             </div>
-            <!-- Coffee -->
+            <!-- roti roll -->
+            <div class="tab-pane fade" id="roti-roll">
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Roti Roll</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque"> Roti ROll</h2>
+                </div>
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/roti-roll/roti-roll.jpg') }}" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Aloo Masala Roll</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/roti-roll/roti-roll.jpg') }}" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Desi Subz Roll</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/roti-roll/roti-roll.jpg') }}" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Teekha Paneer Roll</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/roti-roll/roti-roll.jpg') }}" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Mexican Roll</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/roti-roll/roti-roll.jpg') }}" alt="">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Molten Cheese Paneer Roll</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- shakes -->
             <div class="tab-pane fade" id="shakes">
                 <div class="section-title text-center">
                     <h3 class="wow fadeInUp">Explore Our Shakes</h3>
@@ -529,7 +675,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/Shakes/Belgian-Chocolate-Shake.jpg') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Shakes/Belgian-Chocolate-Shake.jpg') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -577,7 +724,7 @@
                 </div>
             </div>
             <!-- Mojito  -->
-            <div class="tab-pane fade" id="mojito ">
+            <div class="tab-pane fade" id="mojito">
                 <div class="section-title text-center">
                     <h3 class="wow fadeInUp">Explore Our Mojito </h3>
                     <h2 class="text-anime-style-3" data-cursor="-opaque"> Mojito </h2>
@@ -587,7 +734,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -598,7 +745,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -609,7 +756,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -620,7 +767,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -631,7 +778,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -642,7 +789,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -653,7 +800,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -664,7 +811,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -675,7 +822,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="">
+                                <img src="{{ asset('images/upload/menu-item/mojito/mojito.jpg') }}" alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -689,6 +836,539 @@
 
 
                 </div>
+            </div>
+            <!-- ice cream -->
+            <div class="tab-pane fade" id="icecream">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Ice Cream</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Ice Cream</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/ice-cream.jpg') }}" alt="Belgian Chocolate">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Belgian Chocolate</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/ice-cream.jpg') }}" alt="Mix Fruit">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Mix Fruit</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/ice-cream.jpg') }}" alt="American Nuts">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>American Nuts</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/ice-cream.jpg') }}" alt="Malai Rabri">
+                            </div>
+
+                            <div class="cfm_food_content">
+                                <h5>Malai Rabri</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- fires -->
+            <div class="tab-pane fade" id="fries">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Fries & Nuggets</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Fries & Nuggets</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/fries.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Plain Fries</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/fries.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Peri Peri Fries</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/fries.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Masala Fries</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/fries.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Cheese Fries</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/fries.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Loaded Fries</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/fries.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Garlic Shots</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/fries.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>V-Crisper Wedges</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/fries.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Cheese Shots</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- bread -->
+            <div class="tab-pane fade" id="garlicbread">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Garlic Breads</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Garlic Breads</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/garlic-bread.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Classic Garlic Bread</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/garlic-bread.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Round Cheese & Corn Garlic Bread</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/garlic-bread.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Round Chilli Cheese & Corn Garlic Bread</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/garlic-bread.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Stuffed Garlic Bread</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- maggie -->
+            <div class="tab-pane fade" id="maggie">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Maggie</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Maggie</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/maggie.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Plain Maggie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/maggie.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Masala Maggie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/maggie.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Veggie Maggie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/maggie.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Corn & Butter Maggie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/maggie.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Tandoori Maggie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/maggie.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Paneer Maggie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/maggie.jpg') }}" alt="">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>CH Spl. Maggie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- pasta -->
+            <div class="tab-pane fade" id="pasta">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Pasta</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Pasta</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&q=80"
+                                    alt="Pasta">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Red Sauce Pasta</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&q=80"
+                                    alt="Pasta">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>White Sauce Pasta</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&q=80"
+                                    alt="Pasta">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Mix Sauce Pasta</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&q=80"
+                                    alt="Pasta">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Tandoori Sauce Pasta</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&q=80"
+                                    alt="Pasta">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Makhani Sauce Pasta</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- gym salads -->
+            <div class="tab-pane fade" id="gymsalads">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Gym Salads & Bowls</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Gym Salads & Bowls</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=600&q=80"
+                                    alt="Gym Salad">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Desi Bhel Chaat</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=600&q=80"
+                                    alt="Gym Salad">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Greek Yogurt Salad</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=600&q=80"
+                                    alt="Gym Salad">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Spicy Veg & Tofu Salad</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=600&q=80"
+                                    alt="Gym Salad">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Tofu BBQ Salad</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=600&q=80"
+                                    alt="Gym Salad">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Minty Paneer Salad</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=600&q=80"
+                                    alt="Gym Salad">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Fresh Fruit & Nut Bowl</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- breakfast -->
+            <div class="tab-pane fade" id="breakfast">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Breakfast & Snacks</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Breakfast & Snacks</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80"
+                                    alt="Paratha">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Plain Paratha <br><small>(With Achaar & Butter)</small></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80"
+                                    alt="Paratha">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Aloo Pyaz Paratha <br><small>(With Achaar & Butter)</small></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80"
+                                    alt="Paratha">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Paneer Pyaz Paratha <br><small>(With Achaar & Butter)</small></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80"
+                                    alt="Paratha">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Mooli Paratha (Seasonal) <br><small>(With Achaar & Butter)</small></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
             <!-- Pizza -->
             <div class="tab-pane fade" id="pizza">
@@ -759,7 +1439,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/Pizza/Mushroom-Special-Pizza.jpg') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Mushroom-Special-Pizza.jpg') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -803,7 +1484,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/Pizza/Churi-House-Special-Pizza.jpg') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/Pizza/Churi-House-Special-Pizza.jpg') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -815,32 +1497,505 @@
                 </div>
 
             </div>
+            <!-- subs -->
+            <div class="tab-pane fade" id="subs">
 
-            <!-- Pasta -->
-            <div class="tab-pane fade" id="pasta">
                 <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">Explore Our Pasta</h3>
-                    <h2 class="text-anime-style-3" data-cursor="-opaque">Pasta</h2>
+                    <h3 class="wow fadeInUp">Explore Our Subs</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Subs</h2>
                 </div>
+
                 <div class="row g-4">
 
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?w=600" alt="">
+                                <img src="{{ asset('images/upload/menu-item/sub.jpg') }}" alt="Veggie Sub">
                             </div>
-
                             <div class="cfm_food_content">
-                                <h5>Pasta</h5>
+                                <h5>Veggie Sub</h5>
                             </div>
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/sub.jpg') }}" alt="Achari Aloo Sub">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Achari Aloo Sub</h5>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/sub.jpg') }}" alt="Spinach Corn Sub">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Spinach Corn Sub</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/sub.jpg') }}" alt="Makhani Paneer Sub">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Makhani Paneer Sub</h5>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
+
+            </div>
+            <!-- buns -->
+            <div class="tab-pane fade" id="buns">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Buns</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Buns</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/buns.jpg') }}" alt="Bun">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Bun Maska</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/buns.jpg') }}" alt="Bun">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Bun Jam</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/buns.jpg') }}" alt="Bun">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Chocolate Bun</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/buns.jpg') }}" alt="Bun">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Peanut Butter Bun</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="{{ asset('images/upload/menu-item/buns.jpg') }}" alt="Vada Pav">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Vada Pav</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- sandwich -->
+            <div class="tab-pane fade" id="sandwich">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Sandwiches</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Sandwich</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sandwich">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Aloo Toast Sandwich</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sandwich">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Spicy Cheese Corn Sandwich</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sandwich">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Bombay Sandwich</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sandwich">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Fresh Veggie Sandwich</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sandwich">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Paneer Crunch Sandwich</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sandwich">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Paneer Chutney Sandwich</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sandwich">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Spinach Corn Sandwich</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sandwich">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>House Club Sandwich</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="burger">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Burgers</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Burgers</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                    alt="Burger">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Aloo Tikki Burger</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                    alt="Burger">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Aloo Tikki Cheese Burger</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                    alt="Burger">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Achari Aloo Tikki Burger</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                    alt="Burger">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Mexican Chilli & Cheese Burger</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                    alt="Burger">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Maharaja Patty</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                    alt="Burger">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Mexican Paneer Crunch Burger</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="lassi">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Lassi</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Lassi</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Sweet Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Namkeen Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Roohfza Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Pudhina Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Chocolate Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Gulab Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Mango Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Strawberry Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Pista Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                    alt="Lassi">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Kesar Lassi</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
+            <div class="tab-pane fade" id="brownie">
+
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">Explore Our Brownies</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Brownie</h2>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80"
+                                    alt="Brownie">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Walnut Brownie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80"
+                                    alt="Brownie">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Brownie with Ice Cream</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="cfm_food_card">
+                            <div class="cfm_food_img">
+                                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80"
+                                    alt="Brownie">
+                            </div>
+                            <div class="cfm_food_content">
+                                <h5>Sizzling Brownie</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
 
 
 

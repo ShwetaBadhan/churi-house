@@ -18,7 +18,7 @@ Route::get('/about-us', function () {
     return view('frontend.pages.about-us');
 })->name('about-us');
 
-Route::get('/locations', function () {
+Route::get('/franchise-request', function () {
     return view('frontend.pages.locations');
 })->name('locations');
 
@@ -45,10 +45,10 @@ Route::get('/terms-conditions', function () {
 Route::get('/reserve-a-table', function () {
     return view('frontend.pages.reservation');
 })->name('reserve-a-table');
-Route::get('/career', function () {
+Route::get('/careers', function () {
     return view('frontend.pages.career');
 })->name('career');
-Route::get('/locality', function () {
+Route::get('/locations', function () {
     return view('frontend.pages.locality');
 })->name('locality');
 
