@@ -68,7 +68,7 @@
 
                     <div class="chs-history-image-box">
 
-                        <img src="{{ asset('images/upload/home-a.jpg') }}" class="img-fluid chs-history-main-image"
+                        <img src="{{ asset('images/upload/home-a.png') }}" class="img-fluid chs-history-main-image"
                             alt="Our History">
 
 

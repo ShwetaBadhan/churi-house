@@ -38,7 +38,7 @@
         <div class="ch-mv-row ch-mv-reverse">
 
             <div class="ch-mv-image">
-                <img src="{{ asset('images/upload/home-a.jpg') }}" alt="Our Vision">
+                <img src="{{ asset('images/upload/home-a.png') }}" alt="Our Vision">
             </div>
 
             <div class="ch-mv-content">

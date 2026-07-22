@@ -107,7 +107,7 @@
 
                     <!-- Footer Copyright Text Start -->
                     <div class="footer-copyright-text">
-                        <p>© <?php echo date('Y')?> <a class="has-pipe" href="{{ route('home') }}">Churi House</a>
+                        <p>© <?php echo date('Y')?> <a class="has-pipe-lg has-pipe-md" href="{{ route('home') }}">Churi House</a>  
                             Designed and Developed by <a href="https://vibrantick.in/" target="_blank">Vibrantick
                                 Infotech Solutions</a> </p>
                     </div>
@@ -116,7 +116,7 @@
                     <!-- Footer Menu Start -->
                     <div class="footer-menu">
                         <ul>
-                            <li><a class="has-pipe" href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
+                            <li><a class="has-pipe-lg has-pipe-md" href="{{ route('privacy-policy') }}">Privacy Policy</a></li>  
                             <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
 
                         </ul>

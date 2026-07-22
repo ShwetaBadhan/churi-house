@@ -6089,7 +6089,7 @@ header.main-header .header-sticky.active {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -32px;
+    bottom: -12px;
     width: 60px;
     height: 3px;
     background: #eb6d2f;
