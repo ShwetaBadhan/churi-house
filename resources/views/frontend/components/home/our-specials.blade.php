@@ -36,7 +36,7 @@
 
                 <div class="ch-specials-item active" data-title="Chai"
                     data-desc="Aromatic, freshly brewed chai with rich flavors and comforting warmth."
-                    data-img="{{ asset('images/upload/special/Chai.jpg') }}">
+                    data-img="{{ asset('images/upload/special/chai.png') }}">
                     <span>04</span>
                     Chai
                 </div>
