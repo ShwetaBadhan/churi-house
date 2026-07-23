@@ -37,8 +37,8 @@
                     <!-- Hero Button Start -->
                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.2s">
                         <a href="{{ route('our-menu') }}" class="btn-default btn-highlighted">View Our Menu</a>
-                        <a href="{{ route('contact-us') }}" class="ch-special-btn btn-default mt-0 bg-white text-white">
-                            Contact Us <i class="fa-solid fa-arrow-right"></i>
+                        <a href="{{ route('contact-us') }}" class="btn-default btn-highlighted">
+                            Contact Us 
                         </a>
                     </div>
                     <!-- Hero Button End -->

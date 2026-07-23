@@ -170,8 +170,14 @@
                     <!-- Google Map IFrame Start -->
                     <div class="google-map-iframe">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d875677.378852302!2d75.33386704905936!3d30.98123110903317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!3m2!1d31.1471305!2d75.34121789999999!4m5!1s0x390fefedea944243%3A0x9500c935fc50694a!2sChuri%20House%2C%20SCO%20No.04%2C%20Monga%20City%20Centre%2C%20Kharar%20-%20Landran%20Rd%2C%20Sector%20115%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20140307!3m2!1d30.7135169!2d76.65492239999999!5e0!3m2!1sen!2sin!4v1780039968165!5m2!1sen!2sin"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    src="https://www.google.com/maps?q=Churi%20House,%20SCO%20No.04,%20Monga%20City%20Centre,%20Kharar-Landran%20Road,%20Sector%20115,%20Sahibzada%20Ajit%20Singh%20Nagar,%20Punjab%20140307&output=embed"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
                     </div>
                     <!-- Google Map IFrame End -->
                 </div>
