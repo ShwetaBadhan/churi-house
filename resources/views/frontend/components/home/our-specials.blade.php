@@ -69,7 +69,7 @@
 
             <!-- Right Image -->
             <div class="ch-specials-image">
-                <img id="specialImage" src="{{ asset('images/upload/special/Chai.jpg') }}" alt="">
+                <img id="specialImage" src="{{ asset('images/upload/special/chai.png') }}" alt="">
             </div>
 
         </div>

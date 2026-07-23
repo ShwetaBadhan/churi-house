@@ -47,19 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="ch_bestseller_card">
-                    <div class="ch_bestseller_image">
-                        <img src="{{ asset('images/upload/menu/Wrap.jpg') }}" alt="">
-                    </div>
-
-                    <div class="ch_bestseller_content">
-                        <h5>Wraps</h5>
-
-
-                    </div>
-                </div>
-            </div>
+          
 
             <div class="col-lg-3 col-md-6">
                 <div class="ch_bestseller_card">
@@ -74,7 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <!-- <div class="col-lg-3 col-md-6">
                 <div class="ch_bestseller_card">
                     <div class="ch_bestseller_image">
                         <img src="{{ asset('images/upload/menu/Refresher.jpg') }}" alt="">
@@ -87,19 +75,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="ch_bestseller_card">
-                    <div class="ch_bestseller_image">
-                        <img src="{{ asset('images/upload/menu/Momos.jpg') }}" alt="">
-                    </div>
-
-                    <div class="ch_bestseller_content">
-                        <h5>Momos</h5>
-
-
-                    </div>
-                </div>
-            </div>
+          
 
             <div class="col-lg-3 col-md-6">
                 <div class="ch_bestseller_card">
@@ -113,7 +89,7 @@
 
                     </div>
                 </div>
-            </div>
+            </div> -->
           
 
            
