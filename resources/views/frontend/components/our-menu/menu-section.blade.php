@@ -540,7 +540,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/roti-roll/teekha-paneer-roll.png') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/roti-roll/teekha-paneer-roll.png') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -562,7 +563,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/roti-roll/paneer-chesse-roll.png') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/roti-roll/paneer-chesse-roll.png') }}"
+                                    alt="">
                             </div>
 
                             <div class="cfm_food_content">
@@ -850,7 +852,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/icecream/belgain-chocolate-icecream.png') }}" alt="Belgian Chocolate">
+                                <img src="{{ asset('images/upload/menu-item/icecream/belgain-chocolate-icecream.png') }}"
+                                    alt="Belgian Chocolate">
                             </div>
 
                             <div class="cfm_food_content">
@@ -863,7 +866,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/icecream/mix-fruit-icecream.png') }}" alt="Mix Fruit">
+                                <img src="{{ asset('images/upload/menu-item/icecream/mix-fruit-icecream.png') }}"
+                                    alt="Mix Fruit">
                             </div>
 
                             <div class="cfm_food_content">
@@ -876,7 +880,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/icecream/american-nuts-icecream.png') }}" alt="American Nuts">
+                                <img src="{{ asset('images/upload/menu-item/icecream/american-nuts-icecream.png') }}"
+                                    alt="American Nuts">
                             </div>
 
                             <div class="cfm_food_content">
@@ -889,7 +894,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/icecream/malai-rabri-icecream.png') }}" alt="Malai Rabri">
+                                <img src="{{ asset('images/upload/menu-item/icecream/malai-rabri-icecream.png') }}"
+                                    alt="Malai Rabri">
                             </div>
 
                             <div class="cfm_food_content">
@@ -1016,7 +1022,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/garlic-bread/classic-garlic-bread.png') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/garlic-bread/classic-garlic-bread.png') }}"
+                                    alt="">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Classic Garlic Bread</h5>
@@ -1027,7 +1034,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/garlic-bread/round-chesse-&-corn-garlic-bread.png') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/garlic-bread/round-chesse-&-corn-garlic-bread.png') }}"
+                                    alt="">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Round Cheese & Corn Garlic Bread</h5>
@@ -1038,7 +1046,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/garlic-bread/round-chilli-chesse-garlic-bread.png') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/garlic-bread/round-chilli-chesse-garlic-bread.png') }}"
+                                    alt="">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Round Chilli Cheese & Corn Garlic Bread</h5>
@@ -1049,7 +1058,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/garlic-bread/stuffed-garlic-bread.png') }}" alt="">
+                                <img src="{{ asset('images/upload/menu-item/garlic-bread/stuffed-garlic-bread.png') }}"
+                                    alt="">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Stuffed Garlic Bread</h5>
@@ -1164,8 +1174,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/pasta/red-souce-pasta.png') }}"
-                                    alt="Pasta">
+                                <img src="{{ asset('images/upload/menu-item/pasta/red-souce-pasta.png') }}" alt="Pasta">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Red Sauce Pasta</h5>
@@ -1188,8 +1197,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/pasta/mix-souce-pasta.png') }}"
-                                    alt="Pasta">
+                                <img src="{{ asset('images/upload/menu-item/pasta/mix-souce-pasta.png') }}" alt="Pasta">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Mix Sauce Pasta</h5>
@@ -1285,8 +1293,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/gym/paneer-salad.png') }}"
-                                    alt="Gym Salad">
+                                <img src="{{ asset('images/upload/menu-item/gym/paneer-salad.png') }}" alt="Gym Salad">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Minty Paneer Salad</h5>
@@ -1521,7 +1528,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/subs/achari-aloo-sub.png') }}" alt="Achari Aloo Sub">
+                                <img src="{{ asset('images/upload/menu-item/subs/achari-aloo-sub.png') }}"
+                                    alt="Achari Aloo Sub">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Achari Aloo Sub</h5>
@@ -1532,7 +1540,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/subs/spinach-corn-sub.png') }}" alt="Spinach Corn Sub">
+                                <img src="{{ asset('images/upload/menu-item/subs/spinach-corn-sub.png') }}"
+                                    alt="Spinach Corn Sub">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Spinach Corn Sub</h5>
@@ -1543,7 +1552,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="{{ asset('images/upload/menu-item/subs/paneer-sub.png') }}" alt="Makhani Paneer Sub">
+                                <img src="{{ asset('images/upload/menu-item/subs/paneer-sub.png') }}"
+                                    alt="Makhani Paneer Sub">
                             </div>
                             <div class="cfm_food_content">
                                 <h5>Makhani Paneer Sub</h5>
@@ -1635,7 +1645,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/sandwich/aloo-sandwich.png') }}"
                                     alt="Sandwich">
                             </div>
                             <div class="cfm_food_content">
@@ -1647,7 +1657,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/sandwich/spicy-chesse-corn-sandwich.png') }}"
                                     alt="Sandwich">
                             </div>
                             <div class="cfm_food_content">
@@ -1659,7 +1669,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/sandwich/bimbay-sandwich.png') }}"
                                     alt="Sandwich">
                             </div>
                             <div class="cfm_food_content">
@@ -1671,7 +1681,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/sandwich/fresh-veg-sandwich.png') }}"
                                     alt="Sandwich">
                             </div>
                             <div class="cfm_food_content">
@@ -1683,7 +1693,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/sandwich/paneer sandwich.png') }}"
                                     alt="Sandwich">
                             </div>
                             <div class="cfm_food_content">
@@ -1695,7 +1705,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/sandwich/paneer chutney sandwich.png') }}"
                                     alt="Sandwich">
                             </div>
                             <div class="cfm_food_content">
@@ -1707,7 +1717,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/sandwich/spinach-corn-sandwich.png') }}"
                                     alt="Sandwich">
                             </div>
                             <div class="cfm_food_content">
@@ -1719,7 +1729,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/sandwich/house-club-sandwich.png') }}"
                                     alt="Sandwich">
                             </div>
                             <div class="cfm_food_content">
@@ -1743,7 +1753,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/burger/aloo-tikki-burger.png') }}"
                                     alt="Burger">
                             </div>
                             <div class="cfm_food_content">
@@ -1755,7 +1765,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/burger/aloo-chesse-burger.png') }}"
                                     alt="Burger">
                             </div>
                             <div class="cfm_food_content">
@@ -1767,7 +1777,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/burger/achari-aloo-tikki-burger.png') }}"
                                     alt="Burger">
                             </div>
                             <div class="cfm_food_content">
@@ -1779,7 +1789,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/burger/maxican-chilli-chesse-burger.png') }}"
                                     alt="Burger">
                             </div>
                             <div class="cfm_food_content">
@@ -1791,7 +1801,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/burger/maharaj-patti.png') }}"
                                     alt="Burger">
                             </div>
                             <div class="cfm_food_content">
@@ -1803,7 +1813,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/burger/panner-crunch-burger.png') }}"
                                     alt="Burger">
                             </div>
                             <div class="cfm_food_content">
@@ -1827,7 +1837,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/sweet-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1839,7 +1849,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/namkeen-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1851,7 +1861,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/roohafza-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1863,7 +1873,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/pudhina-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1875,7 +1885,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/chocolate-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1887,7 +1897,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/gulab-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1899,7 +1909,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/mango-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1911,7 +1921,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/strawberry-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1923,7 +1933,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/pista-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1935,7 +1945,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/lasii/kesar-lassi.png') }}"
                                     alt="Lassi">
                             </div>
                             <div class="cfm_food_content">
@@ -1960,7 +1970,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/brownie/walnut-brownie.png') }}"
                                     alt="Brownie">
                             </div>
                             <div class="cfm_food_content">
@@ -1972,7 +1982,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/brownie/brownie-with-icecream.png') }}"
                                     alt="Brownie">
                             </div>
                             <div class="cfm_food_content">
@@ -1984,7 +1994,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="cfm_food_card">
                             <div class="cfm_food_img">
-                                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80"
+                                <img src="{{ asset('images/upload/menu-item/brownie/sizzling-brownie.png') }}"
                                     alt="Brownie">
                             </div>
                             <div class="cfm_food_content">
