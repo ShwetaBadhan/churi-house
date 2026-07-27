@@ -54,7 +54,7 @@
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Grow with a brand people love. </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Interested in bringing the Seabud experience to your city? Connect with us to explore
+                                Interested in bringing the Churi House experience to your city? Connect with us to explore
                                 exciting franchise opportunities, business support, and the benefits of joining our growing
                                 brand family.
                             </p>

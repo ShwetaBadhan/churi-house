@@ -56,7 +56,7 @@
                                             <img src="images/testimonial-quote.svg" alt="">
                                         </div>
                                         <div class="testimonial-content">
-                                            <p>Amazing taste, quality ingredients, and a welcoming environment. t's rare
+                                            <p>Amazing taste, quality ingredients, and a welcoming environment. It's rare
                                                 to find a place that delivers such authenticity with consistency.
                                             </p>
                                         </div>

@@ -27,11 +27,11 @@
                     Aloo Toast
                 </div>
 
-                <div class="ch-specials-item" data-title="French Toast"
-                    data-desc="Golden toasted bread with rich flavors, perfect for breakfast or an evening snack."
-                    data-img="{{ asset('images/upload/special/French-Toast.jpg') }}">
+                <div class="ch-specials-item" data-title="Desi Ghee Churi"
+                    data-desc="Traditional churi made with pure desi ghee, freshly crumbled and blended for a rich, authentic taste."
+                    data-img="{{ asset('images/upload/special/churi.png') }}">
                     <span>03</span>
-                    French Toast
+                    Desi Ghee Churi
                 </div>
 
                 <div class="ch-specials-item active" data-title="Chai"
@@ -61,8 +61,8 @@
                     Aromatic, freshly brewed chai with rich flavors and comforting warmth.
                 </p>
 
-                <a href="#" class="ch-special-btn">
-                    Perfect
+                <a href="{{ route('our-menu') }}" class="btn-default btn-highlighted">
+                    View Menu
                 </a>
 
             </div>

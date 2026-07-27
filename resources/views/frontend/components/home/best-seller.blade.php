@@ -10,7 +10,7 @@
              <div class="col-lg-3 col-md-6">
                 <div class="ch_bestseller_card">
                     <div class="ch_bestseller_image">
-                        <img src="{{ asset('images/upload/menu/Chai.jpeg') }}" alt="">
+                        <img src="{{ asset('images/upload/menu/cup-02.png') }}" alt="">
                     </div>
 
                     <div class="ch_bestseller_content">

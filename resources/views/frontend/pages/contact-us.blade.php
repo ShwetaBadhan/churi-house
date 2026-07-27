@@ -52,7 +52,7 @@
                         <div class="section-title">
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Get in quick touch with us </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Have a question, feedback, or a special request?
-                                Reach out now — we're here to help you make your Seabud experience unforgettable.</p>
+                                Reach out now — we're here to help you make your Churi House experience unforgettable.</p>
                         </div>
                         <!-- Section Title End -->
 

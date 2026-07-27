@@ -81,7 +81,7 @@
                         <h3 class="wow fadeInUp">FAQs</h3>
                         <h2 class="text-anime-style-3" data-cursor="-opaque">Frequently asked question</h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">Got questions about our food or bookings? Find
-                            quick answers to make your Seabud visit seamless.</p>
+                            quick answers to make your Churi House visit seamless.</p>
                     </div>
                     <!-- Section Title End -->
 
